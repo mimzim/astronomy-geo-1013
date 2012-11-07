@@ -37,14 +37,15 @@ function startCourse()
             // set the "key" by giving it a value.  all values are strings!
 
     		sessionStorage.setItem( "course_started", "1" );
-
+    		
+    		sessionStorage.setItem( "Retrograde Motion", "0" );
+    		
     		sessionStorage.setItem( "Geocentricity", "0" );
 
     		sessionStorage.setItem( "Heliocentricity", "0" );
 
     		sessionStorage.setItem( "Stellar Parallax", "0" );
 
-    		sessionStorage.setItem( "Retrograde Motion", "0" );
     		
     		
 
@@ -53,6 +54,21 @@ function startCourse()
 	}
 
 }
+
+
+function visitRetrogradeMotion()
+
+{
+
+sessionStorage.setItem( "Retrograde Motion", "visited" );
+
+
+
+showTest();
+
+
+}
+
 function visitGeocentricity()
 
 {
@@ -94,18 +110,6 @@ showTest();
 
 
 
-function visitRetrogradeMotion()
-
-{
-
-sessionStorage.setItem( "Retrograde Motion", "visited" );
-
-
-
-showTest();
-
-}
-
 
 //this function will check to see if every page was visited
 
@@ -117,17 +121,19 @@ function showTest()
 
 {
 
+var RetrogradeMotionVisited = sessionStorage.getItem( "Retrograde Motion" );
+
 var GeocentricityVisited = sessionStorage.getItem( "Geocentricity" );
 
 var HeliocentricityVisited = sessionStorage.getItem( "Heliocentricity" );
 
 var StellarParallaxVisited = sessionStorage.getItem( "Stellar Parallax" );
 
-var RetrogradeMotionVisited = sessionStorage.getItem( "Retrograde Motion" );
 
 
 
-	if( GeocentricityVisited = "visited" && HeliocentricityVisited == "visited" && StellarParallaxVisited == "visited" && RetrogradeMotionVisited == "visited" )
+
+	if( RetrogradeMotionVisited == "visited" && GeocentricityVisited == "visited" && HeliocentricityVisited == "visited" && StellarParallaxVisited == "visited" )
 
 	
 
