@@ -11,6 +11,17 @@ body
 	float: left;
 	width: 627px;
 }
+section
+{
+	display: left;
+	padding: 10px;
+}
+#main-content
+{
+        display: table;
+        margin: auto;
+}
+
 
 #aside-info
 {
@@ -69,7 +80,7 @@ body
 	text-decoration: none;
 	font-family: Arial;
 	font-size: 14px;
-	color: black;
+	color: red;
 }
 
 .menu-link-inactive
@@ -89,7 +100,7 @@ body
 	text-decoration: none;
 	font-family: Arial;
 	font-size: 14px;
-	color: white;
+	color: black;
 }
 
 .menu-link:hover
