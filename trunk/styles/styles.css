@@ -80,7 +80,7 @@ section
 	text-decoration: none;
 	font-family: Arial;
 	font-size: 14px;
-	color: red;
+	color: black;
 }
 
 .menu-link-inactive
@@ -100,7 +100,7 @@ section
 	text-decoration: none;
 	font-family: Arial;
 	font-size: 14px;
-	color: black;
+	color: white;
 }
 
 .menu-link:hover
