@@ -104,6 +104,12 @@ section
         font-color: black;
         margin: auto ;
 }
+#as
+{
+	border-color:gold;
+    border-style:outset;
+}
+
 .sub1-menu-link
 {
     border: #CCFF33;
