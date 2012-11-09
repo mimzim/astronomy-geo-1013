@@ -1,162 +1,98 @@
-function startCourse()
+//mine
+var number_of_clicks = 0;
+var TychoBraheb_clicks = 0;
+var NicolausCopernicus_clicks = 0;
+var GalileoGalileg_clicks = 0;
+var JohannesKeplek_clicks = 0;
+var ClaudiusPtolemyp_clicks 0;
 
-	
 
+function printTychoBrahe()
 {
-
-
-
-	// check to see if cookies is enabled, otherwise, this won't work
-
-	if( typeof sessionStorage === "undefined" || sessionStorage.disabled )
-
-	{
-
-		alert( "You must enable cookies for this course to work properly." );
-
-	}
-
-	else
-
-	{
-
-		// if it is enabled, checked to see if this course was started
-
-		// if it was not able to retrieve, the key "course_started", then
-
-		// then this is the first time we are running the course
-
-        if( !sessionStorage.getItem( "course_started" ) )
-
-        {
-
-        	// clear the session storage
-
-            sessionStorage.clear();
-
-            // set the "key" by giving it a value.  all values are strings!
-
-    		sessionStorage.setItem( "course_started", "1" );
-
-    		sessionStorage.setItem( "Ptolemy", "0" );
-
-    		sessionStorage.setItem( "Copernicus", "0" );
-
-    		sessionStorage.setItem( "Brahe", "0" );
-
-    		sessionStorage.setItem( "Kepler", "0" );
-    		
-    		sessionStorage.setItem( "Galileo", "0" );
-
-        }
-
-	}
-
-}
-function visitPtolemy()
-
-{
-
-sessionStorage.setItem( "Ptolemy", "visited" );
-
-
-
-showTest();
-
- 
-
+  number_of_clicks = number_of_clicks + 1;
+       TychoBrahb_clicks = TychoBrahb_clicks + 1;
+     
+ // these statements change the image
+        document.getElementById( "as" ).src = "images/Brahe.jpg";
+     
+ // these statements change the title
+        document.getElementById( "title" ).innerHTML = "Tycho Brahe";
+       
+ alert( " You have clicked " + number_of_clicks + " times." );
+    
+    checkCompletion();
+     
 }
 
-function visitCopernicus()
-
+function printNicolausCopernicus()
 {
-
-sessionStorage.setItem( "Copernicus", "visited" );
-
-
-
-showTest();
-
- 
-
+ number_of_clicks = number_of_clicks + 1;
+        NicolausCopernicus_clickss = NicolausCopernicuc_clicks + 1;
+	 
+ // these statements change the image
+        document.getElementById( "as" ).src = "images/Copernicu.jpg";
+ // these statements change the title
+        document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus";
+ alert( " You have clicked " + number_of_clicks + " times." );
+    
+    checkCompletion();    
 }
 
-
-function visitBrahe()
-
+function printGalileoGalilei()
 {
-
-sessionStorage.setItem( "Brahe", "visited" );
-
-showTest();
-
+ number_of_clicks = number_of_clicks + 1;
+        GalileoGalileg_clicks = GalileoGalileg_clicks + 1;
+ // these statements change the image
+        document.getElementById( "as" ).src = "images/Galileo.jpg";
+        
+// these statements change the title
+        document.getElementById( "title" ).innerHTML = "Galileo Galilei";
+alert( " You have clicked " + number_of_clicks + " times." );
+    
+    checkCompletion();
+    
+        
 }
-
-
-
-function visitKepler()
-
+function printJohannesKepler()
 {
+ number_of_clicks = number_of_clicks + 1;
+        JohannesKeplek_clicks = JohannesKeplek_clicks + 1;
+	 // these statements change the image
+        document.getElementById( "as" ).src = "images/Kepler.jpg";
+       
+        
+        
+        // these statements change the title
+        document.getElementById( "title" ).innerHTML = "Johannes Kepler";
+          alert( " You have clicked " + number_of_clicks + " times." );
+    
+    checkCompletion();
+    
+}    
 
-sessionStorage.setItem( "Kepler", "visited" );
-
-
-
-showTest();
-
-}
-
-function visitGalileo()
-
+function printClaudiusPtolemy()
 {
-
-sessionStorage.setItem( "Galileo", "visited" );
-
-
-
-showTest();
-
- 
-
-}
-//this function will check to see if every page was visited
-
-// if so, show the Test link
-
-
-
-function showTest()
-
-{
-
-
-
-var PtolemyVisited = sessionStorage.getItem( "Ptolemy" );
-
-var CopernicusVisited = sessionStorage.getItem( "Copernicus" );
-
-var BraheVisited = sessionStorage.getItem( "Brahe" );
-
-var KeplerVisited = sessionStorage.getItem( "Kepler" );
-
-var GalileoVisited = sessionStorage.getItem( "Galileo" );
-	
-
-	
-
-	if( PtolemyVisited = "visited" && CopernicusVisited == "visited" && BraheVisited == "visited" && KeplerVisited == "visited" && GalileoVisited == "visited" )
-
-	
-
-	{
-
-	document.getElementById( "selfCheck1" ).style.display = "inline";
-
-	
-
-	}
-
-
-
+ number_of_clicks = number_of_clicks + 1;
+        ClaudiusPtolemyp_clicks = ClaudiusPtolemyp_clicks + 1;
+	 // these statements change the image
+        document.getElementById( "as" ).src = "images/Ptolemaeus.jpg";
+        
+        
+        
+        // these statements change the title
+        document.getElementById( "title" ).innerHTML = "Claudius Ptolemy";
+          alert( " You have clicked " + number_of_clicks + " times." );
+    
+    checkCompletion();
+    
+        
 } 
-
+function checkCompletion()
+{
+        if( TychoBrahb_clicks > 0 && NicolausCopernicuc_clicks > 0 && GalileoGalileg_clicks > 0 && JohannesKeplek_clicks >  0 && ClaudiusPtolemyp_clicks > 0 )
+        {
+                alert( "Completed!" );
+        }
+}
+  
+        
