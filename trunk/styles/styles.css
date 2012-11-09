@@ -92,6 +92,18 @@ section
 	font-size: 14px;
 	color: orange;
 }
+#box
+{
+        border: none;
+        background: white;
+        font-weight: bold;
+        width: 800px;
+        height: 50px;
+        font-family: Arial;
+        font-size: 12px;
+        font-color: black;
+        margin: auto ;
+}
 .sub1-menu-link
 {
     border: #CCFF33;
