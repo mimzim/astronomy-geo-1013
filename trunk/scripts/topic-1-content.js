@@ -100,6 +100,8 @@ function printSirIssacNewton()
     		"Edmond Halley (1656-1742) of Halley’s comet, visited him concerned about Kepler’s Law of elliptical orbit." +
     		"";
 }
+
+
 function clearBox()
 {
 	document.getElementById( "box" ).innerHTML = "Click on an early astronomer's name to find out more";
