@@ -102,6 +102,46 @@ function printSirIssacNewton()
 }
 
 
+function printGeocentricity()
+{    
+    document.getElementById( "as" ).src = "images/geocentricity.png";
+    document.getElementById( "title" ).innerHTML = "Geocentricity";
+    document.getElementById( "box" ).innerHTML ="Geocentricity";
+}
+
+function printPtolemaicSolarSystem()
+{    
+    document.getElementById( "as" ).src = "images/";
+    document.getElementById( "title" ).innerHTML = "Ptolemaic Solar System";
+    document.getElementById( "box" ).innerHTML ="Ptolemaic Solar System";
+}
+
+function printEpicycles()
+{    
+    document.getElementById( "as" ).src = "images/";
+    document.getElementById( "title" ).innerHTML = "Epicycles";
+    document.getElementById( "box" ).innerHTML ="Epicycles";
+}
+
+function printHeliocentricity()
+{    
+    document.getElementById( "as" ).src = "images/";
+    document.getElementById( "title" ).innerHTML = "Heliocentricity";
+    document.getElementById( "box" ).innerHTML ="Heliocentricity";
+}
+
+function printCopernicanSolarSystem()
+{    
+    document.getElementById( "as" ).src = "images/copernican.png";
+    document.getElementById( "title" ).innerHTML = "Copernican Solar System";
+    document.getElementById( "box" ).innerHTML ="Copernican Solar System";
+}
+
+
+
+
+
+
 function clearBox()
 {
 	document.getElementById( "box" ).innerHTML = "Click on an early astronomer's name to find out more";
