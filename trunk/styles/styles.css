@@ -4,7 +4,10 @@ body
 	padding: 0px;
 	font-size: 12px;
 	font-family: Arial;
+	color: #787878;
+	background-image:url('background-hubble-sombrero.png');
 }
+
 
 #main-info
 {
@@ -160,3 +163,4 @@ audio
 {
 	width: 230px;
 }
+
