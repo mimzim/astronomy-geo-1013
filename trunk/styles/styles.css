@@ -25,7 +25,6 @@ section
     margin: auto;
 }
 
-
 #aside-info
 {
 	float: left;
@@ -33,6 +32,7 @@ section
 	vertical-align: top;
 	padding-left: 10px;
 }
+
 
 #main-content-clear
 {
@@ -97,17 +97,17 @@ section
 }
 #box
 {
-        border: solid black;
-        background: white;
-        font-weight: bold;
-        width: 700px;
-        height: 130px;
-        font-family: Arial;
-        font-size: 12px;
-        font-color: black;
-        margin-left: 0 ;
-        align: left;
+	border: solid black;
+	font-weight: bold;
+	width: 700px;
+	height: 130px;
+	font-family: Arial;
+	font-size: 12px;
+	font-color: black;
+	margin-left: 0 ;
+	align: left;
 }
+
 #as
 {
 	border-color:gold;
