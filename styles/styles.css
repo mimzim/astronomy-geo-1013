@@ -164,14 +164,15 @@ audio
 	width: 230px;
 }
 
-.topic-head
+#topic-head
 {
 	font-family: sans-serif;
 	font-size: 20px;
 }
 
-.sub-topic-head
+#sub-topic-head
 {
 	font-family: sans-serif;
 	font-size: 16px;
 }
+
