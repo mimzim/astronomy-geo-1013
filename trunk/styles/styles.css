@@ -5,7 +5,7 @@ body
 	font-size: 12px;
 	font-family: Arial;
 	color: #787878;
-	background-image:url('background-hubble-sombrero.png');
+	background-image:url(../images/background-starry.jpg);
 }
 
 
@@ -56,16 +56,16 @@ section
 {
 	background: #666666;	
 	padding: 5px;
-	width: 886px;
+	width: 1700px;
 	float: left;
 	height: 18px;
 }
 
 #sub-navigation
 {
-	background: #dddddd;	
+	background: #666666;	
 	padding: 5px;
-	width: 886px;
+	width: 1700px;
 	float: left;
 	height: 18px;
 	font-size: 14px;
