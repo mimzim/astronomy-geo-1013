@@ -6,7 +6,10 @@ body
 	font-family: sans-serif;
 	color: #f7ffff;
 	background-image:url(../images/background-hubble-sombrero.png);
-	background-size: cover
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 
@@ -98,7 +101,6 @@ section
 }
 #box
 {
-	border: solid black;
 	font-weight: bold;
 	width: 700px;
 	height: 130px;
