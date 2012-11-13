@@ -104,28 +104,28 @@ function printSirIssacNewton()
 
 function printGeocentricity()
 {    
-    document.getElementById( "as" ).src = "images/geocentricity.png";
+    document.getElementById( "as" ).src = "images/geocentric.jpg";
     document.getElementById( "title" ).innerHTML = "Geocentricity";
     document.getElementById( "box" ).innerHTML ="Geocentricity";
 }
 
 function printPtolemaicSolarSystem()
 {    
-    document.getElementById( "as" ).src = "images/";
+    document.getElementById( "as" ).src = "images/ptolmic.png";
     document.getElementById( "title" ).innerHTML = "Ptolemaic Solar System";
     document.getElementById( "box" ).innerHTML ="Ptolemaic Solar System";
 }
 
 function printEpicycles()
 {    
-    document.getElementById( "as" ).src = "images/";
+    document.getElementById( "as" ).src = "images/epicycles.jpg";
     document.getElementById( "title" ).innerHTML = "Epicycles";
     document.getElementById( "box" ).innerHTML ="Epicycles";
 }
 
 function printHeliocentricity()
 {    
-    document.getElementById( "as" ).src = "images/";
+    document.getElementById( "as" ).src = "images/Heliocentric.jpg";
     document.getElementById( "title" ).innerHTML = "Heliocentricity";
     document.getElementById( "box" ).innerHTML ="Heliocentricity";
 }
