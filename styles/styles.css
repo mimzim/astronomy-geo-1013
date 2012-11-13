@@ -190,3 +190,9 @@ audio
 	font-family: Time new roman;
 	color: #CCFF33;
 }
+
+.banner
+{
+	height: 100px;
+	width: 895px;
+}
