@@ -102,15 +102,14 @@ section
 #box
 {
 	font-weight: bold;
-	width: 700px;
+	width: 800px;
 	height: 130px;
-	font-family: Arial;
-	font-size: 12px;
+	font-family: Time new roman;
+	font-size: 16px;
 	font-color: black;
-	margin-left: 0 ;
-	align: left;
-	padding: 10px 10px;
-}
+	margin: 10px;
+	text-align: center;
+ }
 
 #as
 {
@@ -120,13 +119,14 @@ section
 
 .sub1-menu-link
 {
-    border: #CCFF33;
+    border: #ADADFF;
     padding: 5px 10px;
-    color: brown;
-    background: #CCFF33;
+    color: #660066;
+    background: #ADADFF;
     font-weight: bold;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 8px;
+    font-size: 12px;
 }
 
 .menu-link
@@ -183,4 +183,10 @@ audio
 .img-left
 {
 	float: left;
+}
+#title
+{
+	font-size: 18px;
+	font-family: Time new roman;
+	color: #CCFF33;
 }
