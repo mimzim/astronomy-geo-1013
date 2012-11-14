@@ -196,3 +196,13 @@ audio
 	height: 100px;
 	width: 895px;
 }
+
+#links
+{	
+	width: 300px;
+  	float: left;
+  	display: inline;
+  	margin: 0;
+  	padding: 0;
+  	margin-right: 10px;
+}
