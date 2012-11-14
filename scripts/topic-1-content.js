@@ -96,8 +96,8 @@ function printSirIssacNewton()
     document.getElementById( "as" ).src = "images/Newton.jpg";
     document.getElementById( "title" ).innerHTML = "Sir Issac Newton";
     document.getElementById( "box" ).innerHTML ="Sir Isaac Newton (1642-1717; England)" +
-    		"Newton’s Law of gravity explained elliptical orbits and speed of orbits." +
-    		"Edmond Halley (1656-1742) of Halley’s comet, visited him concerned about Kepler’s Law of elliptical orbit." +
+    		"Newton's Law of gravity explained elliptical orbits and speed of orbits." +
+    		"Edmond Halley (1656-1742) of Halley's comet, visited him concerned about Kepler's Law of elliptical orbit." +
     		"";
 }
 
