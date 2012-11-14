@@ -49,7 +49,7 @@ function printGalileoGalilei()
    		"Galilean Moons (moons of Jupiter): Io, Europa, Ganymede, Callisto " +
    		"Phases of Venus More support for a heliocentric solar system" +
    		"Phases of a planet or moon occur when perspective changes over time." +
-   		"Galileo’s technological breakthroughs gave evidence for the heliocentric model." +
+   		"Galileo's technological breakthroughs gave evidence for the heliocentric model." +
    		"Mountains on the moon: Not a perfect celestial sphere-Showed the moos is similar to the Earth." +
    		"Demonstrated this by measuring height of mountains based on shadows." +
    		"Moons on Jupiter: There were not only 7 celestial spheres." +
