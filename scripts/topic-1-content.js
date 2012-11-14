@@ -169,7 +169,7 @@ function printStellarParallax()
 
 function printKeplersLaws()
 {    
-    document.getElementById( "as" ).src = "images/kepler-law-3.png";
+    document.getElementById( "img-law" ).src = "images/kepler-law-3.png";
     document.getElementById( "title" ).innerHTML = "Stellar Parallax";
     document.getElementById( "box" ).innerHTML ="Kepler's Laws:" +
     		"1- Planets have elliptical orbits, with the sun at one focus." +
