@@ -137,7 +137,50 @@ function printCopernicanSolarSystem()
     document.getElementById( "box" ).innerHTML ="Copernican Solar System";
 }
 
+function printRetrogradeMotion()
+{    
+    document.getElementById( "as" ).src = "images/retrograde.jpg";
+    document.getElementById( "title" ).innerHTML = "Retrograde Motion";
+    document.getElementById( "box" ).innerHTML ="Retrograde Motion";
+}
 
+function printQuadrant()
+{    
+    document.getElementById( "as" ).src = "images/quadrant.png";
+    document.getElementById( "title" ).innerHTML = "Quadrant";
+    document.getElementById( "box" ).innerHTML ="Quadrant";
+}
+
+function printTycho()
+{    
+    document.getElementById( "as" ).src = "images/Tycho.png";
+    document.getElementById( "title" ).innerHTML = "Tycho Brahe";
+    document.getElementById( "box" ).innerHTML ="Sun orbits earth, and all other planets orbit the sun";
+}
+
+function printStellarParallax()
+{    
+    document.getElementById( "as" ).src = "images/stellar-paralax.png";
+    document.getElementById( "title" ).innerHTML = "Stellar Parallax";
+    document.getElementById( "box" ).innerHTML ="Stellar parallax:   " +
+    		"either earth is at the center of the solar system " +
+    		"OR stars are too far away to accurately measure the parallax";
+}
+
+function printKeplersLaws()
+{    
+    document.getElementById( "as" ).src = "images/kepler-law-3.png";
+    document.getElementById( "title" ).innerHTML = "Stellar Parallax";
+    document.getElementById( "box" ).innerHTML ="Kepler's Laws:" +
+    		"1- Planets have elliptical orbits, with the sun at one focus." +
+    		"2. Line joining the planet to the sun sweets out equal areas in equal times as the planet travels around the ellipse." +
+    		"(The planets move faster when closer to the sun.)" +
+    		"3. The time it takes a planet to orbit the sun is related to it's distance from the sun (e.g. Mars revolves slowers than Earth and Earth" +
+    		"revolves faster than Venus.";
+    
+    	
+
+}
 
 
 
