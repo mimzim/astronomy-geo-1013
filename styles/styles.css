@@ -108,13 +108,14 @@ section
 	font-size: 16px;
 	font-color: black;
 	margin: 10px;
-	text-align: center;
+	text-align: left;
  }
 
 #as
 {
 	border-color:gold;
     border-style:outset;
+    margin: 0px 20px 2px 0px;
 }
 
 .sub1-menu-link
