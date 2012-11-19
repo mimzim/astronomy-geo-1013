@@ -12,9 +12,8 @@ var SirIssacNewton
 function printTychoBrahe()
 {    
     document.getElementById( "as" ).src = "images/Brahe.jpg";
-    document.getElementById( "title" ).innerHTML = "Tycho Brahe";
-    document.getElementById( "box" ).innerHTML ="Tycho Brache- (1546-1601 Danish-Protestant North)." +
-    		"Built an observatory with sophisticated equipment for measuring the distance between stars." +
+    document.getElementById( "title" ).innerHTML = "Tycho Brahe (1546-1601 Danish-Protestant North)";
+    document.getElementById( "box" ).innerHTML ="Given an island by the King of Denmark to build an observatory with sophisticated equipment for measuring the distance between stars.
     		"Left Behind 20 years of observations. Data on Mar's orbit that was crucial for Kelper to construct" +
     		"our present model of the solar system. Useed parallax to show: Either earth is the center of the solar system," +
     		"OR, the stars or so far away that the parallax was too far to measure.  Believed in a blend between Ptolemic and" +
