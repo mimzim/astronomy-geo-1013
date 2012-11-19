@@ -94,7 +94,6 @@ function finishOLM()
 // This function hides the final assessment until all topics have been clicked.
 function hideTest()
 {
-	document.getElementById("test").style.display = "none";
+	document.getElementById("test-link").style.display = "none";
 	document.getElementById("certificate").style.display = "none";
-	
 }
