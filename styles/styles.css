@@ -103,20 +103,14 @@ section
 {
 	font-weight: bold;
 	width: 800px;
-	height: 100px;
+	height: 200px;
+	overflow: auto;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-color: black;
 	margin: auto;
 	text-align: left;
  }
-
-#as
-{
-	border-color:gold;
-    border-style:outset;
-    margin: 0px 20px 2px 0px;
-}
 
 .sub1-menu-link
 {
