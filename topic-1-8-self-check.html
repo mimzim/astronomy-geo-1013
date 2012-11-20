@@ -29,6 +29,58 @@
 		</nav>
 		</br>
 	<body>
+	<article>
+        	<header>
+            	<h1>Drag and Drop Activity</h1>
+            </header>
+            
+            <section>
+         		<form name="dd1" onSubmit="javascript:processForm(); return false;">  
+			<p>Drag the content descriptions and drop them into the correct time on the timeline.</p>
+				
+				<div class="column1">
+						<h3>Draggers</h3>
+					 	<div id="d1" value="3" class="dragger" draggable="true"
+				     		onDragStart="return startDrag( event )"
+				     		onDragEnd="return endDrag( event )"><p>Australia</p></div><br/>  
+				     	<div id="d2" value="2" class="dragger" draggable="true"
+				     		onDragStart="return startDrag( event )"
+				     		onDragEnd="return endDrag( event )">
+				     	<p>Brazil</p></div><br/>                        
+				 		<div id="d3" value="0" class="dragger" draggable="true"
+				     		onDragStart="return startDrag( event )"
+				     		onDragEnd="return endDrag( event )"><p>China</p></div><br/>  
+					 	<div id="d4" value="1" class="dragger" draggable="true"
+				     		onDragStart="return startDrag( event )"
+				     		onDragEnd="return endDrag( event )"><p>Egypt</p></div><br/>  
+				</div>
+				
+				    
+				<div class="column1">
+						<h3>Dragger Bays</h3>
+				     	<div id="d1" value="0" class="draggerbay" 
+				     		onDrop="return dropDragger( event )"
+				     		onDragOver="return false"
+				     		onDragEnter="return enterDragger( event )"><p>Asia</p></div><br/>                        
+				 		<div id="d2" value="1" class="draggerbay"
+				     		onDrop="return dropDragger( event )"
+				     		onDragOver="return false"
+				     		onDragEnter="return enterDragger( event )"><p>Africa</p></div><br/>  
+					 	<div id="d3" value="2" class="draggerbay"
+				     		onDrop="return dropDragger( event )"
+				     		onDragOver="return false"
+				     		onDragEnter="return enterDragger( event )"><p>South America</p></div><br/> 
+					 	<div id="d4" value="3" class="draggerbay"
+				     		onDrop="return dropDragger( event )"
+				     		onDragOver="return false"
+				     		onDragEnter="return enterDragger( event )"><p>Australia</p></div><br/>  
+				</div>
+				<p id="response">&nbsp;</p>
+				<input type="submit" name="button" value="Submit Your Answer"/><br/>
+				</form>
+            </section>
+
+        </article>
 		<section id="main-content">
 			<article id="main-info">			
 				<header>
