@@ -53,70 +53,70 @@ function hideTest()
 function visitHome()
 {
 	sessionStorage.setItem( "home", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage1()
 {
 	sessionStorage.setItem( "page1", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage2()
 {
 	sessionStorage.setItem( "page2", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage3()
 {
  	sessionStorage.setItem( "pag3", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage4()
 {
 	sessionStorage.setItem( "page4", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage5()
 {
 	sessionStorage.setItem( "page5", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage6()
 {
 	sessionStorage.setItem( "page6", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage7()
 {
 	sessionStorage.setItem( "page7", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage8()
 {
 	sessionStorage.setItem( "page9", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage9()
 {
 	sessionStorage.setItem( "page9", "visited");
-	showTest();
+	showAssessment();
 }
 
 function visitPage10()
 {
 	sessionStorage.setItem( "page10", "visited");
-	showTest();
+	showAssessment();
 }
 
-function showTest()
+function showAssessment()
 {
 	var homeVisited = sessionStorage.getItem( "home" );
 	var page1Visited = sessionStorage.getItem( "page1" );
