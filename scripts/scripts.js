@@ -22,6 +22,17 @@ function loadOLM()
             // set the "key" by giving it a value.  all values are strings!
             // course_started indicated that this OLM has started
     		sessionStorage.setItem( "course_started", "1" );
+    		sessionStorage.setItem( "home", "0");
+    		sessionStorage.setItem( "page1", "0");
+    		sessionStorage.setItem( "page2", "0");
+    		sessionStorage.setItem( "page3", "0");
+    		sessionStorage.setItem( "page4", "0");
+    		sessionStorage.setItem( "page5", "0");
+    		sessionStorage.setItem( "page6", "0");
+    		sessionStorage.setItem( "page7", "0");
+    		sessionStorage.setItem( "page8", "0");
+    		sessionStorage.setItem( "page9", "0");
+    		sessionStorage.setItem( "page10", "0");
     			
 			// set the values you want to persist throughout the website here
         
@@ -31,6 +42,97 @@ function loadOLM()
 	
 	// initializeSCORM after the OLM environment has been set up
 	initializeSCORM();
+}
+
+function visitHome()
+{
+	sessionStorage.setItem( "home", "visited");
+	showTest();
+}
+
+function visitPage1()
+{
+	sessionStorage.setItem( "page1", "visited");
+	showTest();
+}
+
+function visitPage2()
+{
+	sessionStorage.setItem( "page2", "visited");
+	showTest();
+}
+
+function visitPage3()
+{
+ 	sessionStorage.setItem( "pag3", "visited");
+	showTest();
+}
+
+function visitPage4()
+{
+	sessionStorage.setItem( "page4", "visited");
+	showTest();
+}
+
+function visitPage5()
+{
+	sessionStorage.setItem( "page5", "visited");
+	showTest();
+}
+
+function visitPage6()
+{
+	sessionStorage.setItem( "page6", "visited");
+	showTest();
+}
+
+function visitPage7()
+{
+	sessionStorage.setItem( "page7", "visited");
+	showTest();
+}
+
+function visitPage8()
+{
+	sessionStorage.setItem( "page9", "visited");
+	showTest();
+}
+
+function visitPage9()
+{
+	sessionStorage.setItem( "page9", "visited");
+	showTest();
+}
+
+function visitPage10()
+{
+	sessionStorage.setItem( "page10", "visited");
+	showTest();
+}
+
+function showTest()
+{
+	var homeVisited = sessionStorage.getItem( "home" );
+	var page1Visited = sessionStorage.getItem( "page1" );
+	var page2Visited = sessionStorage.getItem( "page2" );
+	var page3Visited = sessionStorage.getItem( "page3" );
+	var page4Visited = sessionStorage.getItem( "page4" );
+	var page5Visited = sessionStorage.getItem( "page5");
+	var page6Visited = sessionStorage.getItem( "page6");
+	var page7Visited = sessionStorage.getItem( "page7");
+	var page8Visited = sessionStorage.getItem( "page8");
+	var page9Visited = sessionStorage.getItem( "page9");
+	var page10Visited = sessionStorage.getItem( "page10");
+	
+	
+	if( homeVisited == "visited" && page1Visited == "visited" &&
+		page2Visited == "visited" && page3Visited == "visited" && page4Visited == "visited" &&
+		page5Visited == "visited" && page6Visited == "visited" && page7Visited == "visited" &&
+		page8Visited == "visited" && page9Visited == "visited" && page10Visited == "visited")
+	{
+		document.getElementById( "quiz" ).style.display = "inline";
+	}
+	
 }
 
 // This function initializes the course by connecting the OLM to the LMS 
