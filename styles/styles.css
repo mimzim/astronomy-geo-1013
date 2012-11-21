@@ -209,15 +209,18 @@ audio
 .dragger
 {
 	border: solid thin #000000;
-	background: #999999;
-	
-	text-align: center;
-	height: 50px;
-	width: 150px;
+	background: orange;
+	color: black;
+	text-align: left;
+	height: 90px;
+	width: 400px;
 	vertical-align: center;
 	cursor: move;
 	position: relative;
 	ghosting: true;
+	font-size: 12px;
+	margin: auto;
+	
 }
 
 .dragger p
@@ -228,10 +231,12 @@ audio
 .draggerbay
 {
 	border: dashed thin #000000;
-	height: 50px;
+	height: 70px;
 	width: 150px;
+	background: #999999;
+	color: black;
 	text-align: center;
-	background: #ccccee;
+	padding: 10px;
 }
 
 [draggable=true] 
