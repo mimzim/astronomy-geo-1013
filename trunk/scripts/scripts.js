@@ -100,7 +100,7 @@ function visitPage7()
 
 function visitPage8()
 {
-	sessionStorage.setItem( "page9", "visited");
+	sessionStorage.setItem( "page8", "visited");
 	showAssessment();
 }
 
@@ -134,7 +134,7 @@ function showAssessment()
 	if( homeVisited == "visited" && page1Visited == "visited" &&
 		page2Visited == "visited" && page3Visited == "visited" && page4Visited == "visited" &&
 		page5Visited == "visited" && page6Visited == "visited" && page7Visited == "visited" &&
-		page8Visited == "visited" && page9Visited == "visited" && page10Visited == "visited")
+		page8Visited == "visited" && page9Visited == "visited" )
 	{
 		document.getElementById( "quiz" ).style.display = "inline";
 	}
