@@ -1,4 +1,9 @@
 // This function processes the quiz data
+function hideCertificate()
+{
+	
+}
+
 function submitQuiz1()
 {
 	var numberCorrect = 0;
@@ -24,9 +29,9 @@ function submitQuiz1()
 	var q20 = document.forms.quiz1.question20;
 	
 	
-	if( q1[2].checked == true)
+	if( q1[0].checked == true)
 	{
-		numberCorrect = numberCorrect + 1;
+			numberCorrect = numberCorrect + 1;
 	}
 	
 	if( q2[0].checked == true)
@@ -34,7 +39,7 @@ function submitQuiz1()
 			numberCorrect = numberCorrect + 1;
 		}
 	
-	if(q3[2].checked == true)
+	if(q3[3].checked == true)
 		{
 			numberCorrect = numberCorrect + 1;
 		}
@@ -44,28 +49,84 @@ function submitQuiz1()
 			numberCorrect = numberCorrect + 1;
 		}
 	
-	if(q5[1].checked == true)
+	if(q5[3].checked == true)
 		{
 			numberCorrect = numberCorrect + 1;
 		}
-	if(q6[0].checked == true)
+	if(q6[3].checked == true)
 		{
 			numberCorrect = numberCorrect + 1;
 		}
-
+	if(q7[4].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q8[1].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q9[0].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q10[3].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q11[1].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q12[3].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q13[1].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q14[3].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q15[2].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q16[0].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q17[4].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q18[0].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q19[1].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	if(q20[0].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;
+		}
+	
 	var score = numberCorrect / 20 * 100;
 	alert("Your score is " + score + "%");
 	
 	if(score >= 70)
-		{
-			alert("You passed!")
-			document.getElementById("certificate").style.display = "inline";
-		}
-	
-	if(score < 70)
-		{
-			alert("Try again.")
-		}
+	{
+		alert("You passed!")
+		document.getElementById("certificate").style.display = "inline";
+	}
+
+if(score < 70)
+	{
+		alert("Try again.")
+	}
 	
 	// call the function to report scores
 	parent.reportScores();
