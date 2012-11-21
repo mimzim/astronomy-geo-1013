@@ -1,7 +1,7 @@
 // This function processes the quiz data
 function hideCertificate()
 {
-	
+	document.getElementById("certificate").style.display = "none";
 }
 
 function submitQuiz1()
@@ -118,11 +118,11 @@ function submitQuiz1()
 	alert("Your score is " + score + "%");
 	
 	if(score >= 70)
-	{
-		alert("You passed!")
-		document.getElementById("certificate").style.display = "inline";
-	}
-
+		{
+			alert("You passed!")
+			document.getElementById("certificate").style.display = "inline";
+		}
+	
 if(score < 70)
 	{
 		alert("Try again.")
