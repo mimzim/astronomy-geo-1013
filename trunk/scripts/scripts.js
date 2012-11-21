@@ -69,7 +69,7 @@ function visitPage2()
 
 function visitPage3()
 {
-	sessionStorage.setItem("pag3", "visited");
+	sessionStorage.setItem("page3", "visited");
 	showAssessment();
 }
 
@@ -109,12 +109,6 @@ function visitPage9()
 	showAssessment();
 }
 
-function visitPage10()
-{
-	sessionStorage.setItem("page10", "visited");
-	showAssessment();
-}
-
 function showAssessment()
 {
 	var homeVisited = sessionStorage.getItem( "home" );
@@ -127,13 +121,10 @@ function showAssessment()
 	var page7Visited = sessionStorage.getItem( "page7");
 	var page8Visited = sessionStorage.getItem( "page8");
 	var page9Visited = sessionStorage.getItem( "page9");
-	var page10Visited = sessionStorage.getItem( "page10");
 	
 	
-	if( homeVisited == "visited" && page1Visited == "visited" &&
-		page2Visited == "visited" && page3Visited == "visited" && page4Visited == "visited" &&
-		page5Visited == "visited" && page6Visited == "visited" && page7Visited == "visited" &&
-		page8Visited == "visited" && page9Visited == "visited" )
+	if( page1Visited == "visited" && page2Visited == "visited" && page3Visited == "visited" && page4Visited == "visited" && page5Visited == "visited" && page6Visited == "visited" && page7Visited == "visited" && page8Visited == "visited" && page9Visited == "visited")
+		
 	{
 		document.getElementById("test-link").style.display = "inline";
 	}
