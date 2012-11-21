@@ -8,7 +8,6 @@ var JohannesKeplek
 var ClaudiusPtolemyp
 var SirIssacNewton
 
-
 function printTychoBrahe()
 {    
     document.getElementById( "as" ).src = "images/Brahe.jpg";
@@ -176,13 +175,7 @@ function printKeplersLaws()
     		"(The planets move faster when closer to the sun.)" +
     		"3. The time it takes a planet to orbit the sun is related to it's distance from the sun (e.g. Mars revolves slowers than Earth and Earth" +
     		"revolves faster than Venus.";
-    
-    	
-
 }
-
-
-
 
 function clearBox()
 {
