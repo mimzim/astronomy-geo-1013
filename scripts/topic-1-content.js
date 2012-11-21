@@ -12,26 +12,26 @@ var SirIssacNewton
 function printTychoBrahe()
 {    
     document.getElementById( "as" ).src = "images/Brahe.jpg";
-    document.getElementById( "title" ).innerHTML = "Tycho Brahe (1546-1601 Danish-Protestant North)";
+    document.getElementById( "title" ).innerHTML = "Tycho Brahe (1546-1601 Danish, Protestant North)";
     document.getElementById( "box" ).innerHTML ="Given an island by the King of Denmark to build an observatory with sophisticated equipment for measuring the distance between stars.<br/>" +
     		"Left Behind 20 years of observations. <br>" +
     		"Data on Mar's orbit that was crucial for Kelper to construct our present model of the solar system.<br/>" +
     		"Used parallax to show:<br/> Either earth is the center of the solar system<br/>" +
     		"OR<br/>" +
     		"the stars or so far away that the parallax was too far to measure.<br/> " +
-    		"Believed in a blend between Ptolemic and Copernicun models (planets orbiting the sun and sun orbits the Earth. ";
+    		"Believed in a blend between Ptolemic and Copernicun models (planets orbiting the sun and sun orbits the Earth.";
 }
 
 
 function printNicolausCopernicus()
 {
     document.getElementById( "as" ).src = "images/Copernicu.jpg";
-    document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus (1473-1543-Polish Priest)";
+    document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus (1473-1543 Polish Priest)";
     document.getElementById( "box" ).innerHTML ="Calculations used to revise Julian calendar to Gregorian claendar.<br/>" +
     		"Copernicus had a conceptual breakthrough: the Sun centered solar system.<br/>" +
     		"Still thought circular orbits were correct (perfection in design).<br/>" +
     		"Wrote De Revolusionibus in 1543, received well by the church, but in 1616<br/>" +
-    		"the book was banned until 1865 due to Protestant reformation.<br/>"
+    		"the book was banned until 1865 due to Protestant reformation.<br/>";
 }
 
 
@@ -49,7 +49,7 @@ function printGalileoGalilei()
    		"Galileo's technological breakthroughs gave evidence for the heliocentric model.<br/>" +
    		"Mountains on the moon: Not a perfect celestial sphere and the moon is similar to Earth.<br/>" +
    		"Makes idea that the moon revolves around us and everything else revolves around the sun probable.<br/>" +
-   		"Sunspots: not a heavenly, incorruptible body."
+   		"Sunspots: not a heavenly, incorruptible body.";
    		
 }
 
@@ -59,7 +59,7 @@ function printJohannesKepler()
 
  document.getElementById( "as" ).src = "images/Kepler.jpg";
 
- document.getElementById( "title" ).innerHTML = "Johannes Kepler (1571-1630 German Protestant North)";
+ document.getElementById( "title" ).innerHTML = "Johannes Kepler (1571-1630 German, Protestant north)";
  
  document.getElementById( "box" ).innerHTML ="Thought about the solar system in 3 dimensions and that the spacing between the sphere on which " +
  		"the planets moved were determined by perfect geometric shapes. <br/>" +
@@ -67,14 +67,13 @@ function printJohannesKepler()
  		"Kepler quote: 'My aim is to show that the heavenly machine is not a kind of divine, live being, but a kind of clockwork, insofar as" +
  		"nearly all the manifold motions are caused by a most simple, magnetic, and material force," +
  		"just as all motions of the clock are caused by a simple weight. And I also show how these" +
- 		"physical causes are to be given numerical and geometrical expression' (Gaithers, 2007)" +
- 		""
-}
+ 		"physical causes are to be given numerical and geometrical expression' (Gaithers, 2007)";
+ }
  
 function printClaudiusPtolemy()
 {
     document.getElementById( "as" ).src = "images/Ptolemaeus.jpg";
-    document.getElementById( "title" ).innerHTML = "Claudius Ptolemy (165 AD- Greek)";
+    document.getElementById( "title" ).innerHTML = "Claudius Ptolemy (165 AD, Greek)";
     document.getElementById( "box" ).innerHTML ="THe Ptolmec solar system (accepted for 1500 years)<br/>" +
     		"Earth centered- Celectial objects move at constant speed and move in circular orbits<br/>" +
     		"Planents have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions."
@@ -84,11 +83,9 @@ function printClaudiusPtolemy()
 function printSirIssacNewton()
 {    
     document.getElementById( "as" ).src = "images/Newton.jpg";
-    document.getElementById( "title" ).innerHTML = "Sir Issac Newton";
-    document.getElementById( "box" ).innerHTML ="Sir Isaac Newton (1642-1717; England)" +
-    		"Newton's Law of gravity explained elliptical orbits and speed of orbits." +
-    		"Edmond Halley (1656-1742) of Halley's comet, visited him concerned about Kepler's Law of elliptical orbit." +
-    		"";
+    document.getElementById( "title" ).innerHTML = "Sir Issac Newton (1642-1717, England)";
+    document.getElementById( "box" ).innerHTML ="Edmond Halley (1656-1742) of Halley's comet, visited him concerned about Kepler's Law of elliptical orbit.<br/>"+
+    	"Newton's Law of gravity explained elliptical orbits and speed of orbits.<br/>";
 }
 
 
