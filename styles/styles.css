@@ -247,3 +247,7 @@ audio
   -webkit-user-select: none;
 }
 
+#continue
+{
+	font-size: 20px;
+}
