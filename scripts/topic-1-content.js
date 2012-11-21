@@ -61,8 +61,8 @@ function printJohannesKepler()
 
  document.getElementById( "title" ).innerHTML = "Johannes Kepler (1571-1630 German Protestant North)";
  
- document.getElementById( "box" ).innerHTML ="Thought about the solar system in 3 dimensions and that the spacing between the sphere on which" +
- 		"the planents moved were determined by perfect geometric shapes. <br/>" +
+ document.getElementById( "box" ).innerHTML ="Thought about the solar system in 3 dimensions and that the spacing between the sphere on which " +
+ 		"the planets moved were determined by perfect geometric shapes. <br/>" +
  		"Kepler's laws of planetary motion<br/>"+
  		"Kepler quote: 'My aim is to show that the heavenly machine is not a kind of divine, live being, but a kind of clockwork, insofar as" +
  		"nearly all the manifold motions are caused by a most simple, magnetic, and material force," +
