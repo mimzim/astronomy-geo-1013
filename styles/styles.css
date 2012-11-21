@@ -186,7 +186,7 @@ audio
 
 .banner
 {
-	height: 100px;
+	height: 75px;
 	width: 895px;
 }
 
@@ -252,3 +252,10 @@ audio
 {
 	font-size: 20px;
 }
+
+#scroll
+{
+width:875px;
+height:500px;
+overflow:scroll;
+} 
