@@ -81,11 +81,11 @@ function printClaudiusPtolemy()
 {
     document.getElementById( "as" ).src = "images/Ptolemaeus.jpg";
     document.getElementById( "title" ).innerHTML = "Claudius Ptolemy";
-    document.getElementById( "box" ).innerHTML ="Claudius Ptolmey (165 AD)" +
+    document.getElementById( "box" ).innerHTML ="Claudius Ptolmey (165 AD- Greek)" +
     		"THe Ptolmec solar system (accepted for 1500 years)" +
     		"Earth centered- Celectial objects move at constant speed-" +
     		"Move in circular orbits-" +
-    		"Planents have epicycles"
+    		"Planents have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions."
     		
 } 
 
