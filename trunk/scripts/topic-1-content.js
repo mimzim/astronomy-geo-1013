@@ -76,7 +76,9 @@ function printClaudiusPtolemy()
     document.getElementById( "title" ).innerHTML = "Claudius Ptolemy (165 AD, Greek)";
     document.getElementById( "box" ).innerHTML ="THe Ptolmec solar system (accepted for 1500 years)<br/>" +
     		"Earth centered- Celectial objects move at constant speed and move in circular orbits<br/>" +
-    		"Planents have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions."
+    		"Planents have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions." +
+    		"Developed Quadrants to be used for astronomical measurements, notably determining the altitude of celestial objects" +
+    		"";
     		
 } 
 
@@ -86,6 +88,16 @@ function printSirIssacNewton()
     document.getElementById( "title" ).innerHTML = "Sir Issac Newton (1642-1717, England)";
     document.getElementById( "box" ).innerHTML ="Edmond Halley (1656-1742) of Halley's comet, visited him concerned about Kepler's Law of elliptical orbit.<br/>"+
     	"Newton's Law of gravity explained elliptical orbits and speed of orbits.<br/>";
+}
+
+function printAristotle()
+{    
+    document.getElementById( "as" ).src = "images/aristotle.jpg";
+    document.getElementById( "title" ).innerHTML = "Aristotle";
+    document.getElementById( "box" ).innerHTML ="Aristotle (considered the Father of Western Science) was born in 384 BC in Macedonia. Sent to Plato's Academy in Athens." +
+    		"when he was 17 years old. Tutored Alexander the Great when he was a child. Believed in the 4 basic elements; earth, water, air, fire with each" +
+    		"element having a tendency to go up or down. This was the 1st idea of gravity, before anyone ever knew what gravity was. Used parallax to show that Earth did not move." +
+    		"";
 }
 
 
