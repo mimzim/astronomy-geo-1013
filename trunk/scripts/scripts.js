@@ -22,19 +22,18 @@ function loadOLM()
             // set the "key" by giving it a value.  all values are strings!
             // course_started indicated that this OLM has started
     		sessionStorage.setItem( "course_started", "1" );
-    		sessionStorage.setItem( "home", "0");
-    		sessionStorage.setItem( "page1", "0");
-    		sessionStorage.setItem( "page2", "0");
-    		sessionStorage.setItem( "page3", "0");
-    		sessionStorage.setItem( "page4", "0");
-    		sessionStorage.setItem( "page5", "0");
-    		sessionStorage.setItem( "page6", "0");
-    		sessionStorage.setItem( "page7", "0");
-    		sessionStorage.setItem( "page8", "0");
-    		sessionStorage.setItem( "page9", "0");
-    		sessionStorage.setItem( "page10", "0");
     			
 			// set the values you want to persist throughout the website here
+    		sessionStorage.setItem( "home", "0" );
+    		sessionStorage.setItem( "page1", "0" );
+    		sessionStorage.setItem( "page2", "0" );
+    		sessionStorage.setItem( "page3", "0");
+    		sessionStorage.setItem( "page4", "0" );
+    		sessionStorage.setItem( "page5", "0" );
+    		sessionStorage.setItem( "page6", "0" );
+    		sessionStorage.setItem( "page7", "0" );
+    		sessionStorage.setItem( "page8", "0" );
+    		sessionStorage.setItem( "page9", "0" );
         
         
         }
@@ -52,67 +51,67 @@ function hideTest()
 
 function visitHome()
 {
-	sessionStorage.setItem( "home", "visited");
+	sessionStorage.setItem("home", "visited");
 	showAssessment();
 }
 
 function visitPage1()
 {
-	sessionStorage.setItem( "page1", "visited");
+	sessionStorage.setItem("page1", "visited");
 	showAssessment();
 }
 
 function visitPage2()
 {
-	sessionStorage.setItem( "page2", "visited");
+	sessionStorage.setItem("page2", "visited");
 	showAssessment();
 }
 
 function visitPage3()
 {
- 	sessionStorage.setItem( "pag3", "visited");
+	sessionStorage.setItem("pag3", "visited");
 	showAssessment();
 }
 
 function visitPage4()
 {
-	sessionStorage.setItem( "page4", "visited");
+	sessionStorage.setItem("page4", "visited");
 	showAssessment();
 }
 
 function visitPage5()
 {
-	sessionStorage.setItem( "page5", "visited");
+	sessionStorage.setItem("page5", "visited");
 	showAssessment();
 }
 
 function visitPage6()
 {
-	sessionStorage.setItem( "page6", "visited");
+	sessionStorage.setItem("page6", "visited");
 	showAssessment();
 }
 
 function visitPage7()
 {
-	sessionStorage.setItem( "page7", "visited");
+	sessionStorage.setItem("page7", "visited");
 	showAssessment();
 }
 
 function visitPage8()
 {
-	sessionStorage.setItem( "page8", "visited");
+	sessionStorage.setItem("page8", "visited");
 	showAssessment();
 }
 
 function visitPage9()
 {
-	sessionStorage.setItem( "page9", "visited");
+	sessionStorage.setItem("page9", "visited");
 	showAssessment();
 }
 
 function visitPage10()
 {
-	sessionStorage.setItem( "page10", "visited");
+	sessionStorage.setItem("page10", "visited");
 	showAssessment();
 }
 
@@ -136,7 +135,7 @@ function showAssessment()
 		page5Visited == "visited" && page6Visited == "visited" && page7Visited == "visited" &&
 		page8Visited == "visited" && page9Visited == "visited" )
 	{
-		document.getElementById( "quiz" ).style.display = "inline";
+		document.getElementById("test-link").style.display = "inline";
 	}
 	
 }
