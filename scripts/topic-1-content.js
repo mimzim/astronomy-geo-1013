@@ -86,8 +86,8 @@ function printAristotle()
 {    
     document.getElementById( "as" ).src = "images/aristotle.jpg";
     document.getElementById( "title" ).innerHTML = "Aristotle (384 BCE, Macedonia)";
-    document.getElementById( "box" ).innerHTML =". Believed in the 4 basic elements; earth, water, air, fire with each element having a tendency to go up or down<br/><br/>. " +
-    		". This was the 1st idea of gravity, before anyone ever knew what gravity was<br/><br/>. " +
+    document.getElementById( "box" ).innerHTML =". Believed in the 4 basic elements; earth, water, air, fire with each element having a tendency to go up or down.<br/><br/>" +
+    		". This was the 1st idea of gravity, before anyone ever knew what gravity was.<br/><br/>" +
     		". Used parallax to show that Earth did not move.";
 }
 
@@ -162,7 +162,7 @@ function printKeplersLaws()
     document.getElementById( "img-law" ).src = "images/kepler-law-3.png";
     document.getElementById( "title" ).innerHTML = "Stellar Parallax";
     document.getElementById( "box" ).innerHTML ="Kepler's Laws:" +
-    		"1- Planets have elliptical orbits, with the sun at one focus." +
+    		"1. Planets have elliptical orbits, with the sun at one focus." +
     		"2. Line joining the planet to the sun sweets out equal areas in equal times as the planet travels around the ellipse." +
     		"(The planets move faster when closer to the sun.)" +
     		"3. The time it takes a planet to orbit the sun is related to it's distance from the sun (e.g. Mars revolves slowers than Earth and Earth" +
