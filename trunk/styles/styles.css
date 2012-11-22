@@ -18,13 +18,6 @@ section
 	display: left;
 	padding: 10px;
 }
-#main-content
-{
-    width: 886px;
-    display: table;
-    margin: auto;
-    overflow: auto;
-}
 
 #aside-info
 {
@@ -47,6 +40,10 @@ section
 
 #main-content
 {
+	width: 886px;
+    display: table;
+    margin: auto;
+    overflow: auto;
 	height: 368px;
 	padding: 10px;
 	margin: 10px;
