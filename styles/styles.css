@@ -13,12 +13,6 @@ body
 	background-size: cover;
 }
 
-
-#main-info
-{
-	float: left;
-	width: 627px;
-}
 section
 {
 	display: left;
@@ -26,6 +20,7 @@ section
 }
 #main-content
 {
+    width: 886px;
     display: table;
     margin: auto;
 }
@@ -95,19 +90,19 @@ section
 	padding: 0px 10px;
 	font-weight: bold;
 	text-decoration: none;
-	font-family: Arial;
+	font-family: sans-serif;
 	font-size: 14px;
 	color: orange;
 }
 #box
 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
 	font-weight: bold;
-	width: 400px;
-	height: 200px;
-	font-family: sans-serif;
-	font-size: 16px;
-	font-color: black;
-	margin: auto;
+	color: #c3b7a6;
+	width: 350px;
+	height: 100px;
 }
 
 .sub1-menu-link
@@ -196,6 +191,13 @@ audio
   	margin: 0;
   	padding: 0;
   	margin-right: 10px;
+}
+
+.columns
+{
+	display: table-cell;
+	width: 300px;
+	text-align:left;
 }
 .column1
 {
