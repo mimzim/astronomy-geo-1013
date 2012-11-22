@@ -11,7 +11,7 @@ var SirIssacNewton
 function printTychoBrahe()
 {    
     document.getElementById( "as" ).src = "images/Brahe.jpg";
-    document.getElementById( "title" ).innerHTML = "Tycho Brahe (1546-1601 Danish, Protestant North)";
+    document.getElementById( "title" ).innerHTML = "Tycho Brahe<br/>(1546-1601 Danish, Protestant North)";
     document.getElementById( "box" ).innerHTML =". Given an island by the King of Denmark to build an observatory with sophisticated equipment for measuring the distance between stars.<br/><br/>" +
     		". Left Behind 20 years of observations. <br>" +
     		". Data on Mar's orbit that was crucial for Kelper to construct our present model of the solar system.<br/><br/>" +
@@ -26,7 +26,7 @@ function printTychoBrahe()
 function printNicolausCopernicus()
 {
     document.getElementById( "as" ).src = "images/Copernicu.jpg";
-    document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus (1473-1543 Polish Priest)";
+    document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus<br/>(1473-1543 Polish Priest)";
     document.getElementById( "box" ).innerHTML =". Calculations used to revise Julian calendar to Gregorian claendar.<br/><br/>" +
     		". Copernicus had a conceptual breakthrough: the Sun centered solar system.<br/><br/>" +
     		". Still thought circular orbits were correct (perfection in design).<br/><br/>" +
@@ -38,7 +38,7 @@ function printGalileoGalilei()
 
 {
 	document.getElementById( "as" ).src = "images/Galileo.jpg";
-	document.getElementById( "title" ).innerHTML = "Galileo Galilei (1564-1642; Italian, anti-reformation Italy)";
+	document.getElementById( "title" ).innerHTML = "Galileo Galilei<br/>(1564-1642; Italian, anti-reformation Italy)";
 	document.getElementById( "box" ).innerHTML =". Built a telescope after hearing of one built in the Netherlands <br/><br/>" +
 	   		". Demonstrated some celestial objects did not revolve around the Earth<br/><br/>" +
 	   		". Discovered moons of Jupiter called the Galilean Moons: Io, Europa, Ganymede, Callisto<br/><br/>" +
@@ -53,7 +53,7 @@ function printGalileoGalilei()
 function printJohannesKepler()
 {
 	 document.getElementById( "as" ).src = "images/Kepler.jpg";
-	 document.getElementById( "title" ).innerHTML = "Johannes Kepler (1571-1630 German, Protestant north)";
+	 document.getElementById( "title" ).innerHTML = "Johannes Kepler<br/>(1571-1630 German, Protestant north)";
 	 document.getElementById( "box" ).innerHTML =". Thought about the solar system in 3 dimensions and that the spacing between the sphere on which " +
 	 		"the planets moved were determined by perfect geometric shapes.<br/><br/>" +
 	 		". Kepler's laws of planetary motion<br/><br/>"+
@@ -66,7 +66,7 @@ function printJohannesKepler()
 function printClaudiusPtolemy()
 {
     document.getElementById( "as" ).src = "images/Ptolemaeus.jpg";
-    document.getElementById( "title" ).innerHTML = "Claudius Ptolemy (165 AD, Greek)";
+    document.getElementById( "title" ).innerHTML = "Claudius Ptolemy<br/>(165 AD, Greek)";
     document.getElementById( "box" ).innerHTML =". The Ptolmec solar system (accepted for 1500 years).<br/><br/>" +
     		". Earth centered- Celectial objects move at constant speed and move in circular orbits<br/><br/>" +
     		". Planets have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions.<br/><br/>" +
@@ -76,7 +76,7 @@ function printClaudiusPtolemy()
 function printSirIssacNewton()
 {    
     document.getElementById( "as" ).src = "images/Newton.jpg";
-    document.getElementById( "title" ).innerHTML = "Sir Issac Newton (1642-1717, England)";
+    document.getElementById( "title" ).innerHTML = "Sir Issac Newton<br/>(1642-1717, England)";
     document.getElementById( "box" ).innerHTML =". Collaborated with Edmond Halley for whom Halley's comet was named.<br/><br/>" +
     	". They revisited Kepler's Law of elliptical orbit.<br/><br/>"+
     	". Newton's Law of gravity explained elliptical orbits and speed of orbits.<br/>";
@@ -85,7 +85,7 @@ function printSirIssacNewton()
 function printAristotle()
 {    
     document.getElementById( "as" ).src = "images/aristotle.jpg";
-    document.getElementById( "title" ).innerHTML = "Aristotle (384 BCE, Macedonia)";
+    document.getElementById( "title" ).innerHTML = "Aristotle<br/>(384 BCE, Macedonia)";
     document.getElementById( "box" ).innerHTML =". Believed in the 4 basic elements; earth, water, air, fire with each element having a tendency to go up or down.<br/><br/>" +
     		". This was the 1st idea of gravity, before anyone ever knew what gravity was.<br/><br/>" +
     		". Used parallax to show that Earth did not move.";
