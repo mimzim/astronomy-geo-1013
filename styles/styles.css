@@ -43,8 +43,7 @@ section
 	width: 886px;
     display: table;
     margin: auto;
-    overflow: auto;
-	height: 368px;
+    height: 368px;
 	padding: 10px;
 	margin: 10px;
 }
@@ -254,7 +253,6 @@ audio
 
 #scroll
 {
-width:875px;
-height: 500px;
-overflow:scroll;
+height: 400px;
+overflow:auto;
 } 
