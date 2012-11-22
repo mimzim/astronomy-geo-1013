@@ -2,7 +2,8 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: bold;
 	font-family: sans-serif;
 	color: #c3b7a6;
 	background-image:url(../images/background-hubble-sombrero.png);
@@ -36,7 +37,6 @@ section
 	vertical-align: top;
 	padding-left: 10px;
 }
-
 
 #main-content-clear
 {
@@ -102,15 +102,13 @@ section
 #box
 {
 	font-weight: bold;
-	width: 800px;
+	width: 400px;
 	height: 200px;
-	overflow: auto;
 	font-family: sans-serif;
 	font-size: 16px;
 	font-color: black;
 	margin: auto;
-	text-align: left;
- }
+}
 
 .sub1-menu-link
 {
@@ -192,7 +190,7 @@ audio
 
 #links
 {	
-	width: 300px;
+	width: 200px;
   	float: left;
   	display: inline;
   	margin: 0;
@@ -256,6 +254,6 @@ audio
 #scroll
 {
 width:875px;
-height:500px;
+height: 500px;
 overflow:scroll;
 } 
