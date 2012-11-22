@@ -12,7 +12,7 @@ function printTychoBrahe()
 {    
     document.getElementById( "as" ).src = "images/Brahe.jpg";
     document.getElementById( "title" ).innerHTML = "Tycho Brahe (1546-1601 Danish, Protestant North)";
-    document.getElementById( "box" ).innerHTML ="Given an island by the King of Denmark to build an observatory with sophisticated equipment for measuring the distance between stars.<br/><br/>" +
+    document.getElementById( "box" ).innerHTML =". Given an island by the King of Denmark to build an observatory with sophisticated equipment for measuring the distance between stars.<br/><br/>" +
     		". Left Behind 20 years of observations. <br>" +
     		". Data on Mar's orbit that was crucial for Kelper to construct our present model of the solar system.<br/><br/>" +
     		". Used parallax to show:<br/> " +
@@ -67,9 +67,9 @@ function printClaudiusPtolemy()
 {
     document.getElementById( "as" ).src = "images/Ptolemaeus.jpg";
     document.getElementById( "title" ).innerHTML = "Claudius Ptolemy (165 AD, Greek)";
-    document.getElementById( "box" ).innerHTML ="THe Ptolmec solar system (accepted for 1500 years)<br/>" +
-    		". Earth centered- Celectial objects move at constant speed and move in circular orbits<br/>" +
-    		". Planets have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions." +
+    document.getElementById( "box" ).innerHTML =". The Ptolmec solar system (accepted for 1500 years).<br/><br/>" +
+    		". Earth centered- Celectial objects move at constant speed and move in circular orbits<br/><br/>" +
+    		". Planets have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions.<br/><br/>" +
     		". Developed Quadrants to be used for astronomical measurements, notably determining the altitude of celestial objects";
 } 
 
