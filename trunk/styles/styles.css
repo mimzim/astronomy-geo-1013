@@ -23,6 +23,7 @@ section
     width: 886px;
     display: table;
     margin: auto;
+    overflow: auto;
 }
 
 #aside-info
@@ -102,7 +103,8 @@ section
 	font-weight: bold;
 	color: #c3b7a6;
 	width: 350px;
-	height: 100px;
+	height: 400px;
+	overflow: auto;
 }
 
 .sub1-menu-link
