@@ -1,0 +1,246 @@
+TOPIC-1.html
+___________________________________________________________
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/intro.mp3" type="audio/mp3">
+					<source src="audio/intro.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				This learning module is designed for the UTSA Geology 1013- Astronomy course. The contents provide an overview of early astronomers, astronomy history and theory, science and technology.
+			This learning module is a multimedia rich experience that included, animation, video and audio.  There are two main topics, Astronomical Revolution and Scientific Revolution with each 
+			including several related sub-topics. After each topic there will be a self-check to help you monitor your learning and understanding of concepts discussed in this learning module
+			and at the end is a comprehensive multiple choice assessment, when passed will provide you with a printable certificate of completion. You may begin your learning
+			journey now by navigating the tabs above. Good luck and have fun!
+				</div>
+		
+
+
+
+
+
+
+
+TOPIC-1-1-INTRO
+_____________________________________________________________
+
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/intro2.mp3" type="audio/mp3">
+					<source src="audio/intro2.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				This page depicts a timeline showing when some of the most famous astronomers 1st influenced the world. Astronomy was experiencing extreme  
+				breakthroughs during these times and developed as a legitimate branch of science. Not all theories were readily accepted and some caused 
+				major turmoil with the church and state.  
+				</div>
+		
+			
+
+TOPIC 1-3-ASTRONOMERS
+_______________________________________________________________
+ 
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/astronomers.mp3" type="audio/mp3">
+					<source src="audio/astronomers.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				You are now on the early astronomers page which provided valuable information about each astronomer.  Click on an astronomer's name to see 
+				his picture and read the information provided. Now would be a good time to start taking notes since you will need to know names, dates and theories.
+				</div>
+				
+				
+				
+TOPIC 1-4-ASTRONOMY LAWS
+_______________________________________________________________
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/astronomy-laws.mp3" type="audio/mp3">
+					<source src="audio/astronomy-laws.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				Here you will learn about four different astronomy laws including geocentricity, retrograde, stellar parallax, and Kepler's laws. 
+				Learning and understanding each law is extremely important. When you click on an astronomy law, you will be re-directed to an external source that
+				helps enrich concepts with animation and additional information. You may revisit these sights any time and remember to take notes, as these pages are very information rich!
+				</div>
+		
+				
+
+TOPIC-1-8-SELF-CHECK
+______________________________________________________________
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/self-check1.mp3" type="audio/mp3">
+					<source src="audio/self-check1.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				Wonderful! You have now accessed the Astronomical Revolution Self-Check page. This is when the notes you have been taking come in handy! A drag and drop activity is provided you for to review and test your 
+				knowledge of the Astronomical Revolution. If you are having difficulty matching the astronomer with the corresponding date, you should review the 
+				information on the previous pages and then re-visit this page. It is important to have a strong understanding of these concepts as it will help you greatly in the comprehensive assessment at the end of this module.
+				</div>
+			
+			
+			
+TOPIC 2-1-INTRO
+_____________________________________________________________
+
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/scientific-revolution.mp3" type="audio/mp3">
+					<source src="audio/scientific-revolution.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				You have come to the 2nd main topic page, Scientific Revolution.  Scientific Revolution connects to several subtopics including: the scientific Method, historical technology and modern technology.
+				As with Astronomical Revolution, there will also be a self-check at the end where you can review what you have learned about this topic. And remember, when you think of Science, 
+				remember that it attempts to understand the natural world through observations and testing hypothesis. As you look at the word-cloud on this page, 
+				think notice which words you are familiar with, and spend the time looking up words you do not know. Remember to add these unfamilar words to your notes for better understanding!
+				</div>
+
+
+
+TOPIC 2-2-SCIENTIFIC METHOD
+____________________________________________________________
+
+	
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/scientific-method.mp3" type="audio/mp3">
+					<source src="audio/scientific-method.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				The Scientific Method is a process of observations, questions, investigations, observations, data collections, and theory. These processes often do 
+				not occur in a particular order and it's path can be changed or re-visited according to what's needed.  The Scientific Method is not fool proof and can
+				sometimes lead to wrong conclusions, however since experiments are meant to be reproduced, this can also lead to corrections in procedure and theory. 
+				</div>
+		
+		
+TOPIC 2-3-MODERN-TECHNOLOGY
+__________________________________________________________
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/modern-tech.mp3" type="audio/mp3">
+					<source src="audio/modern-tech.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				Throughout history the development of technology has aimed to help make things easier and faster. Today many people think of technology related to electronic components like the
+				Ipad, internet and robotics. However, even a pencil or a hammer can be considered as technology as they were created to make tasks easier and faster. Technology has produced the Industrial Era when 
+				factories and machines replaced hard labor, 
+				and most recently the Information Era,  where almost anything can be learned and seen by the touch of a button. Easier and faster has certainly taken on a whole new meaning. 
+			   </div>	
+
+			   
+			   
+TOPIC 2-4-HISTORIC-TECHNOLOGY
+_______________________________________________________________
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/historical-tech.mp3" type="audio/mp3">
+					<source src="audio/historical-tech.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				One of the most important historical technologies was the invention of the automobile. Not only did 
+				it provided for easy travel but it also significantly reduced illness due to horse waste from the many
+				horses used for travel. 	
+		    	</div>	
+		    	
+		    	
+		    	
+TOPIC 2-6-SELF-CHECK
+________________________________________________________________	
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/self-check2.mp3" type="audio/mp3">
+					<source src="audio/self-check2.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				You are now on the Scientific Revolution Self-Check page that will help you review concepts you have learned.
+				There are a few thought-provoking questions on the page that urge you to reflect on technology and how it has 
+				impacted our world. Please take time to jot down your answers to these questions, and again, if you are unclear
+				about how to answer, you should re-visit any pages you need so that you will have a strong understanding of the material
+				in this learning module. 	
+			  </div>		   
+			  
+			  
+TOPIC-3-0-SUMMARY
+_______________________________________________________________
+
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/summary.mp3" type="audio/mp3">
+					<source src="audio/summary.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				You have clicked on the Study Tips page! This page is your friend and was created to help you to successfully complete
+				this learning module.  There are five tips on this site that you should definitely read about and use.
+				Take the time now, to relax, breath deeply, let your eyes rest and stretch a little. 
+				</div>
+				
+ASSESSMENT
+______________________________________________________________
+
+
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/assessment.mp3" type="audio/mp3">
+					<source src="audio/assessment.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				Well done! You have made it to the comprehensive assessment page where you will be asked a series of 20 multiple choice questions.
+				Use your notes to help you correctly answer the questions provided. When you submit your answers and receive a passing grade you will
+				be directed to the certificate page to print a certificate of completion for a job well done!  Good luck!
+			   </div>
+
+
+CERTIFICATE
+_____________________________________________________________
+
+	
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/certificate.mp3" type="audio/mp3">
+					<source src="audio/certificate.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				Congratulations! You have arrived at the certificate of completion page. Please print your
+				certificate and keep for your records. Hopefully your learning journey has been beneficial
+				and you will continue to have a life-long interest in Astronomy. 
+				</div>
+				
+REFERENCES
+________________________________________________________________
+			
+				<audio id="narration" controls="controls" autoplay="autoplay">
+					<source src="audio/references.mp3" type="audio/mp3">
+					<source src="audio/references.ogg" type="audio/ogg">
+					Your browser does not support the audio tag.
+				</audio>
+				
+				<div id="transcript">
+				You will be able to check references here and find out more about any of the information covered in this
+				learning module by researching these sources. 
+				</div>	
+
+
+
