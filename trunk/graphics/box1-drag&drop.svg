@@ -11,5 +11,13 @@
   <ellipse cx="20" cy="15" rx="17" ry="12" fill="url(#grad1)" />
   <text fill="black" font-size="10.5" font-family="Times New Roman" x="9" y="18">Goal</text>
 
+    <text x="2" y="40" fill="white" font-size="6" font-family="Time new roman"><tspan x="2" y="40"> This astronomy module will provide an overview of astronomers, astronomy theories, and science and </tspan> 
+    <tspan x="2" y="50">technology within this context.Additionally, the module will take a closer look at the astronomy theories</tspan>  
+     <tspan x="2" y="60">allowing you to benefit by actively engaging with the content. This course is a multi-media rich experience,</tspan> 
+     <tspan x="2" y="70"> which includes videos, animations, check for understandings, a final assessment, and a certificate </tspan>
+     <tspan x="2" y="80">of completion.</tspan> </text>
+     <ellipse cx="32" cy="105" rx="30" ry="19" fill="url(#grad1)" />
+  <text fill="black" font-size="10.5" font-family="Times New Roman" x="9" y="106">Objectives</text>
+  
     
 </svg>
