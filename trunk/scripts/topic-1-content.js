@@ -174,3 +174,4 @@ function clearBox()
 	document.getElementById( "box" ).innerHTML = "Click on an early astronomer's name to find out more";
 }
 
+
