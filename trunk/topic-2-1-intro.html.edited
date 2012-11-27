@@ -43,15 +43,14 @@
 				Gaze at the vocabulary word-cloud below...write down words you are familiar with and discover the definition of words you do not know by looking them up.
 				<br/>
 				<img src="images/word-cloud.png" alt="Astronomy Word Cloud"
-<<<<<<< .mine
+
 				<br/>
 				<br/>
-				title="Astronomy Word Cloud" width="600" height="400" />
-=======
-				title="Astronomy Word Cloud" width="550" height="350" />
->>>>>>> .r269
+				<title="Astronomy Word Cloud" width="600" height="400" />
+				<title="Astronomy Word Cloud" width="550" height="350" />
+
 				<br/>
-				<p id="continue">To continue, click on the topic above titled Scientific Method</p>
+				<p>To continue, to the next topic, click <a href="../utsa-geo1013/topic-2-2-scientific-method.html"><img src="graphics/box7-navegation.svg"/></p></a>.</p>
 				<br/>
 				<br/>
 				<br/>
