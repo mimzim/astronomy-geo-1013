@@ -215,17 +215,21 @@ audio
 	background: orange;
 	color: black;
 	text-align: left;
-	height: 70px;
-	width: 150px;
+	height: 80px;
+	width: 250px;
 	vertical-align: center;
 	cursor: move;
 	position: relative;
 	ghosting: true;
-	font-size: 12px;
+	font-size: 10px;
 	margin: auto;
 	
 }
-
+h3
+{
+	
+	text-align: center;
+}
 .dragger p
 {
 	font-weight: bold;
@@ -234,10 +238,11 @@ audio
 .draggerbay
 {
     border: dashed thin #000000;
-	height: 50px;
-	width: 150px;
+	height: 80px;
+	width: 250px;
 	text-align: center;
 	background: #ccccee;
+	color: black;
 
 }
 
