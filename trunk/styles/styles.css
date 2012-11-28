@@ -267,3 +267,53 @@ h3
 {
 	padding-up:-1m;
 }
+
+.column-dd
+{
+	display: table-cell;
+	padding: 50px;
+	width: 200px;
+}
+
+.dragger
+{
+	border: solid thin #000000;
+	background: #999999;
+	
+	text-align: center;
+	height: 85px;
+	width: 230px;
+	vertical-align: center;
+	cursor: move;
+	position: relative;
+	ghosting: true;
+}
+
+.dragger p
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.draggerbay
+{
+	border: dashed thin #000000;
+	background: #ccccee;
+
+	text-align: center;
+	height: 85px;
+	width: 230px;
+	vertical-align: center;
+}
+
+h3
+{
+	text-align: center;
+}
+[draggable=true] 
+{
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
