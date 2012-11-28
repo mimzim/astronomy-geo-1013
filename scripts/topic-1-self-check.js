@@ -29,7 +29,7 @@ function processForm()
 	}
 	else
 	{
-		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='index.html'>click here to try again</a>";
+		document.getElementById( "response" ).innerHTML = "Incorrect!  <a href='topic-1-8-self-check.html'>click here to try again</a>";
 	}
 }
 
