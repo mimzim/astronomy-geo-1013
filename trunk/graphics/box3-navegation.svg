@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
  viewBox="0 0 300 200">
 
-  <rect width="50" height="5" fill="#666666" style="fill:rgb();stroke-width:1;stroke:rgb(0,0,0)" x="50" />
-<text fill="#FF6600" font-size="3" font-family="Arial" x="65" y="3.5">Astronomy Laws</text>
+  <rect width="60" height="6" fill="#666666" style="fill:rgb();stroke-width:1;stroke:rgb(0,0,0)" x="50" />
+<text fill="#c3b7a6" font-size="4" font-family="Arial" x="65" y="4.5">Astronomy Laws</text>
 </svg>
 
 
