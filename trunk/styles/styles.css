@@ -133,14 +133,13 @@ section
 	color: yellow;
 }
 
-#aside-title-audio
+#aside-audio-transcript
 {
-	background: #666666;
-	width: 233px;
-	font-size: 14px;
-	font-weight: bold;
-	color: white;
-	padding: 5px;
+	width: 50px;
+  	float: right;
+  	margin: 0;
+  	padding: 0;
+  	margin-left: 10px;
 }
 
 #transcript
