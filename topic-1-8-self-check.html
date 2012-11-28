@@ -35,108 +35,70 @@
 	<body>
 	<article>
 	<br/>
-		<div id="scroll">
-        	<header>
-            	<h1>Drag and Drop Activity</h1>
-            </header>
-            <br/>
-            
-            In order to gauge your learning of this module, you will complete a SELF-CHECK after each main topic. 
-            <br/>This SELF-CHECK page will require you to match Astronomers with their correlating date.  
-            <br/>Drag and drop the pictures on the left column onto the Astronomers boxes on the right column.
-            <br/>You may revisit any section to review any information you feel you have not mastered.
-            <br/>
+	<section id="main-content">
+			<article id="main-info">
+			<article> 
             <section>
          		<form name="dd1" onSubmit="javascript:processForm(); return false;">  
-			<p>.</p>
+				<p>Match the important discovery, observation or idea on the left to the correct astronomer on the right.  Then click submit to check your memory!</p>
 				
-				<div class="column1">
-						<h3>Draggers</h3>
-					 	<div id="d1" value="2" class="dragger" draggable="true"
+				<div class="column-dd">
+						<h3>Astronomers</h3>
+					 	<div id="d1" value="4" class="dragger" draggable="true"
 				     		onDragStart="return startDrag( event )"
-				     		onDragEnd="return endDrag( event )"><p>•	Data on Mar's orbit that was crucial for Kelper to construct our present model of the solar system. 
-                             </br>•Stellar parallax showed either : 
-        </br>- Earth at center of solar system  OR
-        </br>-Stars are so far away to measure the degree of parallax</p></div><br/>  
+				     		onDragEnd="return endDrag( event )"><p>His first law says that planets move in elliptical orbits around the sun.</p></div><br/>  
 				     	<div id="d2" value="1" class="dragger" draggable="true"
 				     		onDragStart="return startDrag( event )"
 				     		onDragEnd="return endDrag( event )">
-				     	<p>•	Calculations used to revise Julian calendar to Gregorian calendar.
-            </br>•	Copernicus breakthrough = SUN-CENTERED solar system.
-</p></div><br/>                        
-				 		<div id="d3" value="0" class="dragger" draggable="true"
+				     	<p>First to describe a sun-centered solar system.</p></div><br/>                        
+				 		<div id="d3" value="3" class="dragger" draggable="true"
 				     		onDragStart="return startDrag( event )"
-				     		onDragEnd="return endDrag( event )"><p>o	Earth centered. 
-</br>•	Planets move in circular orbits and epicycles.
-e</p></div><br/>  
-					 	<div id="d4" value="3" class="dragger" draggable="true"
+				     		onDragEnd="return endDrag( event )"><p>His observation of Jupiter's moons and Venus' phases lent support to a heliocentric solar system model.</p></div><br/>  
+					 	<div id="d4" value="0" class="dragger" draggable="true"
 				     		onDragStart="return startDrag( event )"
-				     		onDragEnd="return endDrag( event )"><p>•	 Built telescope -1609. 
-</br>•	Demonstrated some celestial bodies NOT revolving around EARTH
-</br> -Venus phases (trips around the sun) result from changes in perspective over time.  
-</p></div><br/> 
-				     		<div id="d5" value="4" class="dragger" draggable="true"
+				     		onDragEnd="return endDrag( event )"><p>Introduced the idea of epicycles: planets move IN circular orbits ON circular orbits around the Earth.</p></div><br/>
+				     	<div id="d5" value="5" class="dragger" draggable="true"
 				     		onDragStart="return startDrag( event )"
-				     		onDragEnd="return endDrag( event )"><p>•	Deceptively acquired 20 years of Brahe's observations after Brahe's death.
-</br>•	planets orbit the sun in an elliptical path.
-</br>•	planets move faster when closer to the sun.
-</br>•	planets closer to the sun orbit faster than planets  further  away.
-
-</p></div><br/> 
-				     		<div id="d6" value="5" class="dragger" draggable="true"
+				     		onDragEnd="return endDrag( event )"><p>He used the law of gravity to explain the speed and shape (ellipse) of planetary orbits.</p></div><br/>
+				     	<div id="d6" value="2" class="dragger" draggable="true"
 				     		onDragStart="return startDrag( event )"
-				     		onDragEnd="return endDrag( event )"><p>•	Visit with Edmond Halley (Halley's Comet)
-</br>•	Described gravity as related to mass of object, and used it to explain elliptical orbits.
-</p></div><br/> 
-				     	<div id="d7" value="3" class="dragger" draggable="true"
-				     		onDragStart="return startDrag( event )"
-				     		onDragEnd="return endDrag( event )"><p>
-Aristotle
-</br>•	Believed sun, planets and stars revolved around earth.
-</br>•	Observed stellar parallax and concluded that earth MUST be at the center of the universe. 
-
-				</p></div><br/> 
+				     		onDragEnd="return endDrag( event )"><p>His 20 years of data helped Kepler support a heliocentric model of the solar system.</p></div><br/>  
 				</div>
-				<div class="column1">
+			    
+				<div class="column-dd">
 						<h3>Dragger Bays</h3>
 				     	<div id="d1" value="0" class="draggerbay" 
 				     		onDrop="return dropDragger( event )"
 				     		onDragOver="return false"
-				     		onDragEnter="return enterDragger( event )"><p>165 Ptolmey</p></div><br/>                        
+				     		onDragEnter="return enterDragger( event )"><p>165 - Ptolemy</p></div><br/>                        
 				 		<div id="d2" value="1" class="draggerbay"
 				     		onDrop="return dropDragger( event )"
 				     		onDragOver="return false"
-				     		onDragEnter="return enterDragger( event )"><p>1473-1543 Nicolaus Copernicus</p></div><br/>  
+				     		onDragEnter="return enterDragger( event )"><p>1473-1543 - Copernicus</p></div><br/>  
 					 	<div id="d3" value="2" class="draggerbay"
 				     		onDrop="return dropDragger( event )"
 				     		onDragOver="return false"
-				     		onDragEnter="return enterDragger( event )"><p>1546-1601 Tycho Brahe</p></div><br/> 
-				     		<div id="d7" value="3" class="draggerbay"
+				     		onDragEnter="return enterDragger( event )"><p>1546-1601 - Brahe</p></div><br/> 
+					 	<div id="d4" value="3" class="draggerbay"
 				     		onDrop="return dropDragger( event )"
 				     		onDragOver="return false"
-				     		onDragEnter="return enterDragger( event )"><p>Early Astronomy </p></div><br/>  
-					 	<div id="d4" value="6" class="draggerbay"
-				     		onDrop="return dropDragger( event )"
-				     		onDragOver="return false"
-				     		onDragEnter="return enterDragger( event )"><p>1564-1642 Galileo Galilei</p></div><br/>  
+				     		onDragEnter="return enterDragger( event )"><p>1564-1642 - Galilei</p></div><br/> 
 				     	<div id="d5" value="4" class="draggerbay"
 				     		onDrop="return dropDragger( event )"
 				     		onDragOver="return false"
-				     		onDragEnter="return enterDragger( event )"><p>1571-1630 Johannes Kepler</p></div><br/>  
+				     		onDragEnter="return enterDragger( event )"><p>1571-1630 - Kepler</p></div><br/> 
 				     	<div id="d6" value="5" class="draggerbay"
 				     		onDrop="return dropDragger( event )"
 				     		onDragOver="return false"
-				     		onDragEnter="return enterDragger( event )"><p>1642-1717 Sir Isaac Newton</p></div><br/>  
-				     	
+				     		onDragEnter="return enterDragger( event )"><p>1642-1717 - Newton</p></div><br/>  
 				</div>
 				<p id="response">&nbsp;</p>
-				<input type="submit" name="button" float="center" value="Submit Your Answer"/><br/>
+				<input type="submit" name="button" value="Submit"/><br/>
 				</form>
             </section>
-			<aside>
-			
-			</aside>
+        </article>	
         </article>
+       </section>
         
         <aside>
       <p align="left">To continue, to the next topic, click <a href="../utsa-geo1013/topic-2-1-intro.html">	<img src="graphics/box5-navegation.svg"/></p></a>.</p>         							
