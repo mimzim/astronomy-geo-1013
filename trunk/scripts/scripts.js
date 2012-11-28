@@ -48,6 +48,7 @@ function hideTest()
 	document.getElementById("test-link").style.display = "none";
 	document.getElementById("certificate").style.display = "none";
 	document.getElementById("study").style.display = "none";
+	document.getElementById("refs").style.display = "none";
 }
 
 function visitHome()
@@ -129,6 +130,7 @@ function showAssessment()
 	{
 		document.getElementById("test-link").style.display = "inline";
 		document.getElementById("study").style.display = "inline";
+		document.getElementById("refs").style.display = "inline";
 	}
 	
 }
