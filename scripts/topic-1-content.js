@@ -60,7 +60,7 @@ function printJohannesKepler()
 	 		". Kepler quote: 'My aim is to show that the heavenly machine is not a kind of divine, live being, but a kind of clockwork, insofar as" +
 	 		"nearly all the manifold motions are caused by a most simple, magnetic, and material force," +
 	 		" just as all motions of the clock are caused by a simple weight. And I also show how these" +
-	 		"physical causes are to be given numerical and geometrical expression' (Gaithers, 2007).";
+	 		"physical causes are to be given numerical and geometrical expression.' (Gaithers, 2007).";
  }
  
 function printClaudiusPtolemy()
