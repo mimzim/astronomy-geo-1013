@@ -59,7 +59,7 @@ function printJohannesKepler()
 	 		". Kepler's laws of planetary motion.<br/><br/>"+
 	 		". Kepler quote: 'My aim is to show that the heavenly machine is not a kind of divine, live being, but a kind of clockwork, insofar as" +
 	 		" nearly all the manifold motions are caused by a most simple, magnetic, and material force," +
-	 		" just as all motions of the clock are caused by a simple weight. And I also show how these" +
+	 		" just as all motions of the clock are caused by a simple weight. And I also show how these " +
 	 		"physical causes are to be given numerical and geometrical expression.' (Gaithers, 2007).";
  }
  
@@ -166,7 +166,7 @@ function printKeplersLaws()
     		"2. Line joining the planet to the sun sweets out equal areas in equal times as the planet travels around the ellipse." +
     		"(The planets move faster when closer to the sun.)" +
     		"3. The time it takes a planet to orbit the sun is related to it's distance from the sun (e.g. Mars revolves slowers than Earth and Earth" +
-    		"revolves faster than Venus.";
+    		"revolves faster than Venus.)";
 }
 
 function clearBox()
