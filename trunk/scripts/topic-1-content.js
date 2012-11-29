@@ -96,7 +96,7 @@ function printGeocentricity()
 {    
     document.getElementById( "as" ).src = "images/geocentric.jpg";
     document.getElementById( "title" ).innerHTML = "Geocentricity";
-    document.getElementById( "box" ).innerHTML ="Geocentricity";
+    document.getElementById( "box" ).innerHTML ="Geocentricity needs a write-up";
 }
 
 function printPtolemaicSolarSystem()
@@ -131,7 +131,7 @@ function printRetrogradeMotion()
 {    
     document.getElementById( "as" ).src = "images/retrograde.jpg";
     document.getElementById( "title" ).innerHTML = "Retrograde Motion";
-    document.getElementById( "box" ).innerHTML ="Retrograde Motion";
+    document.getElementById( "box" ).innerHTML ="Retrograde Motion needs a write up";
 }
 
 function printQuadrant()
@@ -152,19 +152,20 @@ function printStellarParallax()
 {    
     document.getElementById( "as" ).src = "images/stellar-paralax.png";
     document.getElementById( "title" ).innerHTML = "Stellar Parallax";
-    document.getElementById( "box" ).innerHTML ="Stellar parallax:   " +
-    		"either earth is at the center of the solar system " +
-    		"OR stars are too far away to accurately measure the parallax";
+    document.getElementById( "box" ).innerHTML ="Stellar parallax:<br/><br/>" +
+    		"1. Either earth is at the center of the solar system<br/><br/>" +
+    		"OR<br/><br/>" +
+    		"2. Stars are too far away to accurately measure the parallax";
 }
 
 function printKeplersLaws()
 {    
-    document.getElementById( "img-law" ).src = "images/kepler-law-3.png";
-    document.getElementById( "title" ).innerHTML = "Stellar Parallax";
-    document.getElementById( "box" ).innerHTML ="Kepler's Laws:" +
-    		"1. Planets have elliptical orbits, with the sun at one focus." +
+    document.getElementById( "as" ).src = "images/kepler-law-3.png";
+    document.getElementById( "title" ).innerHTML = "Kepler's Laws";
+    document.getElementById( "box" ).innerHTML ="Kepler's Laws:<br/><br/>" +
+    		"1. Planets have elliptical orbits, with the sun at one focus.<br/><br/>" +
     		"2. Line joining the planet to the sun sweets out equal areas in equal times as the planet travels around the ellipse." +
-    		"(The planets move faster when closer to the sun.)" +
+    		"(The planets move faster when closer to the sun.)<br/><br/>" +
     		"3. The time it takes a planet to orbit the sun is related to it's distance from the sun (e.g. Mars revolves slowers than Earth and Earth" +
     		"revolves faster than Venus.)";
 }
