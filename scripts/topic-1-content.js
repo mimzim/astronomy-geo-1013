@@ -39,10 +39,10 @@ function printGalileoGalilei()
 {
 	document.getElementById( "as" ).src = "images/Galileo.jpg";
 	document.getElementById( "title" ).innerHTML = "Galileo Galilei<br/>(1564-1642; Italian, anti-reformation Italy)";
-	document.getElementById( "box" ).innerHTML =". Built a telescope after hearing of one built in the Netherlands <br/><br/>" +
-	   		". Demonstrated some celestial objects did not revolve around the Earth<br/><br/>" +
-	   		". Discovered moons of Jupiter called the Galilean Moons: Io, Europa, Ganymede, Callisto<br/><br/>" +
-	   		". Showed phases of Venus as perspective changes over time, more support for a heliocentric solar system<br/><br/>" +
+	document.getElementById( "box" ).innerHTML =". Built a telescope after hearing of one built in the Netherlands. <br/><br/>" +
+	   		". Demonstrated some celestial objects did not revolve around the Earth.<br/><br/>" +
+	   		". Discovered moons of Jupiter called the Galilean Moons: Io, Europa, Ganymede, Callisto.<br/><br/>" +
+	   		". Showed phases of Venus as perspective changes over time, more support for a heliocentric solar system.<br/><br/>" +
 	   		". Galileo's technological breakthroughs gave evidence for the heliocentric model.<br/><br/>" +
 	   		". Mountains on the moon: Not a perfect celestial sphere and the moon is similar to Earth.<br/><br/>" +
 	   		". Makes idea that the moon revolves around us and everything else revolves around the sun probable.<br/><br/>" +
