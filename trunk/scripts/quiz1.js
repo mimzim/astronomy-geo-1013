@@ -114,7 +114,10 @@ function submitQuiz1()
 			numberCorrect = numberCorrect + 1;
 		}
 	
-	var score = numberCorrect / 20 * 100;
+	var percent = numberCorrect / 20;
+	var score = number Correct / 20 * 100;
+	
+	
 	alert("Your score is " + score + "%");
 	
 	if(score >= 70)
@@ -129,5 +132,5 @@ if(score < 70)
 	}
 	
 	// call the function to report scores
-	parent.reportScores();
+	parent.reportScores( score );
 }
