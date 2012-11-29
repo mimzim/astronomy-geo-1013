@@ -68,9 +68,9 @@ function printClaudiusPtolemy()
     document.getElementById( "as" ).src = "images/Ptolemaeus.jpg";
     document.getElementById( "title" ).innerHTML = "Claudius Ptolemy<br/>(165 AD, Greek)";
     document.getElementById( "box" ).innerHTML =". The Ptolmec solar system (accepted for 1500 years).<br/><br/>" +
-    		". Earth centered- Celectial objects move at constant speed and move in circular orbits<br/><br/>" +
+    		". Earth centered- Celectial objects move at constant speed and move in circular orbits.<br/><br/>" +
     		". Planets have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions.<br/><br/>" +
-    		". Developed Quadrants to be used for astronomical measurements, notably determining the altitude of celestial objects";
+    		". Developed Quadrants to be used for astronomical measurements, notably determining the altitude of celestial objects.";
 } 
 
 function printSirIssacNewton()
