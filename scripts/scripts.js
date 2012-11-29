@@ -164,28 +164,46 @@ function initializeSCORM()
 		sessionStorage.setItem( "course_started", "2" );
     		
 		// retrieve the LMS values here and integrate them into your course
-		
+		var userName = oScorm.get("cmi.lerner_name");
+		sessionStorage.setItem("userName", userName);
+		window.frames [0].document.getElementById("user-name").innerHTML = userName;
 	}
+	else
+		{
+		var userName = sessionStorage.getItem("userName");
+		window.frames [0].document.getElementById("user-name").innerHTML = userName;
+		}
 }
 
 // This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
-function reportScores()
+function reportScores( percent )
 {	
 	// these are some test values
-	oScorm.set("cmi.score.raw", 83 );
+	oScorm.set("cmi.score.raw", percent *100 );
 	oScorm.set("cmi.score.min", 0 );
 	oScorm.set("cmi.score.max", 100 );
-	oScorm.set("cmi.score.scaled", .83 );
-	
+	oScorm.set("cmi.score.scaled", percent );
+	//add an if-statement to determine what is passing or not
+	if (percent >=.7)
+		{	
 	// Set the values and status here
 	// for now, just set it to passed and completed
 	oScorm.set( "cmi.success_status", "passed" );
 	oScorm.set( "cmi.completion_status", "completed" );
 	oScorm.set( "cmi.lesson_status", "passed" );
-
+		}
+	
+	else 
+		{
+		oScorm.set( "cmi.success_status", "failed" );
+		oScorm.set( "cmi.completion_status", "completed" );
+		oScorm.set( "cmi.lesson_status", "failed" );		
+		}
+	//add line or call function that shows the certificate link if passed
 	oScorm.save();
 }
+
 
 // This function is called when the window is closed.  It saves and quits the course.
 function finishOLM()
