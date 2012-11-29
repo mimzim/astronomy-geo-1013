@@ -27,7 +27,7 @@ function printNicolausCopernicus()
 {
     document.getElementById( "as" ).src = "images/Copernicu.jpg";
     document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus<br/>(1473-1543 Polish Priest)";
-    document.getElementById( "box" ).innerHTML =". Calculations used to revise Julian calendar to Gregorian claendar.<br/><br/>" +
+    document.getElementById( "box" ).innerHTML =". Calculations used to revise Julian calendar to Gregorian calendar.<br/><br/>" +
     		". Copernicus had a conceptual breakthrough: the Sun centered solar system.<br/><br/>" +
     		". Still thought circular orbits were correct (perfection in design).<br/><br/>" +
     		". Wrote De Revolusionibus in 1543, received well by the church, but in 1616 the book was banned until 1865, due to the Protestant reformation.";
