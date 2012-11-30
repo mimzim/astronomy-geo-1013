@@ -228,8 +228,13 @@ audio
 	display: table-cell;
 	padding: 50px;
 	width: 200px;
+	margin: 0px;
 }
 
+#drag
+{
+	margin: 0px;
+}
 .dragger
 {
 	border: solid thin #000000;
@@ -266,7 +271,9 @@ audio
 h3
 {
 	text-align: center;
+	margin: 0px;
 }
+
 [draggable=true] 
 {
   -khtml-user-drag: element;
@@ -275,3 +282,7 @@ h3
   -webkit-user-select: none;
 }
 
+#response
+{
+	margin: 0px;
+}
