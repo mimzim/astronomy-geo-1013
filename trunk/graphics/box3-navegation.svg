@@ -2,7 +2,7 @@
  viewBox="0 0 300 200">
 
   <rect width="60" height="6" fill="#666666" style="fill:rgb();stroke-width:1;stroke:rgb(0,0,0)" x="1" />
-<text fill="#c3b7a6" font-size="4" font-family="Arial" x="15" y="4.5">Astronomy Laws</text>
+<text fill="#c3b7a6" font-size="7.5" font-family="Arial" x="8" y="7.5">Astronomy Laws</text>
 </svg>
 
 
