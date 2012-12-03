@@ -96,7 +96,9 @@ function printGeocentricity()
 {    
     document.getElementById( "as" ).src = "images/geocentric.jpg";
     document.getElementById( "title" ).innerHTML = "Geocentricity";
-    document.getElementById( "box" ).innerHTML ="Geocentricity needs a write-up";
+    document.getElementById( "box" ).innerHTML ="Geocentricity, a model developed by Ptolemy, was the belief that the Earth is the center of the universe." +
+    		"Geogentric thinking also believed that Earth was fixed in space, not moving, and was special and unique compared to " +
+    		"all other celestial bodies. ";
 }
 
 function printPtolemaicSolarSystem()
