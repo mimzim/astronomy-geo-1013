@@ -131,7 +131,12 @@ function printRetrogradeMotion()
 {    
     document.getElementById( "as" ).src = "images/retrograde.jpg";
     document.getElementById( "title" ).innerHTML = "Retrograde Motion";
-    document.getElementById( "box" ).innerHTML ="Retrograde Motion needs a write up";
+    document.getElementById( "box" ).innerHTML ="Retrograde motion is movement in the direction opposite to the movement of something else." +
+    		" A true example of retrograde motion would be the Earth rotating one direction around the sun and a sattelite rotating " +
+    		"around the Earth in the opposite direction. This would mean that the Earth and the sattelite are in true retrograde motion." +
+    		"However, the retrograde motion seen in the movements of planents is purely an INNLUSION and depends solely on the vantage point." +
+    		"The seemingly backward movement is only due to the different speeds at which planents orbit the Sun. When planents pass eachother" +
+    		"in orbit, it can sometimes look as though one is moving backward."
 }
 
 function printQuadrant()
