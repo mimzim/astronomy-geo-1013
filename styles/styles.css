@@ -66,7 +66,7 @@ body
 
 .sub-menu-link:hover
 {
-	color: yellow;
+	color: white;
 }
 	
 .sub-menu-link
@@ -107,6 +107,11 @@ body
     border-radius: 8px;
     font-size: 12px;
  }
+ 
+ .sub1-menu-link:hover
+{
+	color: orange;
+}
 
 .menu-link
 {
