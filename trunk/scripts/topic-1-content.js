@@ -10,7 +10,7 @@ var SirIssacNewton
 
 function printTychoBrahe()
 {    
-    document.getElementById( "as" ).src = "images/Brahe.jpg";
+    document.getElementById( "as" ).src = "images/brahe.jpg";
     document.getElementById( "title" ).innerHTML = "Tycho Brahe<br/>(1546-1601 Danish, Protestant North)";
     document.getElementById( "box" ).innerHTML ="Given an island by the King of Denmark to build an observatory with sophisticated equipment for measuring the distance between stars.<br/><br/>" +
     		". Left Behind 20 years of observations. <br/><br/>" +
@@ -25,7 +25,7 @@ function printTychoBrahe()
 
 function printNicolausCopernicus()
 {
-    document.getElementById( "as" ).src = "images/Copernicu.jpg";
+    document.getElementById( "as" ).src = "images/copernicus.jpg";
     document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus<br/>(1473-1543 Polish Priest)";
     document.getElementById( "box" ).innerHTML =". Calculations used to revise Julian calendar to Gregorian calendar.<br/><br/>" +
     		". Copernicus had a conceptual breakthrough: the Sun centered solar system.<br/><br/>" +
@@ -37,7 +37,7 @@ function printNicolausCopernicus()
 function printGalileoGalilei()
 
 {
-	document.getElementById( "as" ).src = "images/Galileo.jpg";
+	document.getElementById( "as" ).src = "images/galileo.jpg";
 	document.getElementById( "title" ).innerHTML = "Galileo Galilei<br/>(1564-1642; Italian, anti-reformation Italy)";
 	document.getElementById( "box" ).innerHTML =". Built a telescope after hearing of one built in the Netherlands. <br/><br/>" +
 	   		". Demonstrated some celestial objects did not revolve around the Earth.<br/><br/>" +
@@ -52,7 +52,7 @@ function printGalileoGalilei()
        
 function printJohannesKepler()
 {
-	 document.getElementById( "as" ).src = "images/Kepler.jpg";
+	 document.getElementById( "as" ).src = "images/kepler.png";
 	 document.getElementById( "title" ).innerHTML = "Johannes Kepler<br/>(1571-1630 German, Protestant north)";
 	 document.getElementById( "box" ).innerHTML =". Thought about the solar system in 3 dimensions and that the spacing between the sphere on which " +
 	 		"the planets moved were determined by perfect geometric shapes.<br/><br/>" +
@@ -65,7 +65,7 @@ function printJohannesKepler()
  
 function printClaudiusPtolemy()
 {
-    document.getElementById( "as" ).src = "images/Ptolemaeus.jpg";
+    document.getElementById( "as" ).src = "images/ptolemaeus.jpg";
     document.getElementById( "title" ).innerHTML = "Claudius Ptolemy<br/>(165 AD, Greek)";
     document.getElementById( "box" ).innerHTML =". The Ptolmec solar system (accepted for 1500 years).<br/><br/>" +
     		". Earth centered- Celectial objects move at constant speed and move in circular orbits.<br/><br/>" +
@@ -75,7 +75,7 @@ function printClaudiusPtolemy()
 
 function printSirIssacNewton()
 {    
-    document.getElementById( "as" ).src = "images/Newton.jpg";
+    document.getElementById( "as" ).src = "images/newton.jpg";
     document.getElementById( "title" ).innerHTML = "Sir Issac Newton<br/>(1642-1717, England)";
     document.getElementById( "box" ).innerHTML =". Collaborated with Edmond Halley for whom Halley's comet was named.<br/><br/>" +
     	". They revisited Kepler's Law of elliptical orbit.<br/><br/>"+
@@ -103,7 +103,7 @@ function printGeocentricity()
 
 function printPtolemaicSolarSystem()
 {    
-    document.getElementById( "as" ).src = "images/ptolmic.png";
+    document.getElementById( "as" ).src = "images/ptolmeic.png";
     document.getElementById( "title" ).innerHTML = "Ptolemaic Solar System";
     document.getElementById( "box" ).innerHTML ="Ptolemaic Solar System";
 }
@@ -117,7 +117,7 @@ function printEpicycles()
 
 function printHeliocentricity()
 {    
-    document.getElementById( "as" ).src = "images/Heliocentric.jpg";
+    document.getElementById( "as" ).src = "images/heliocentric.jpg";
     document.getElementById( "title" ).innerHTML = "Heliocentricity";
     document.getElementById( "box" ).innerHTML ="Heliocentricity";
 }
@@ -151,7 +151,7 @@ function printQuadrant()
 
 function printTycho()
 {    
-    document.getElementById( "as" ).src = "images/Tycho.png";
+    document.getElementById( "as" ).src = "images/tycho.png";
     document.getElementById( "title" ).innerHTML = "Tycho Brahe";
     document.getElementById( "box" ).innerHTML ="Sun orbits earth, and all other planets orbit the sun";
 }
