@@ -96,64 +96,21 @@ function printGeocentricity()
 {    
     document.getElementById( "as" ).src = "images/geocentric.jpg";
     document.getElementById( "title" ).innerHTML = "Geocentricity";
-    document.getElementById( "box" ).innerHTML ="Geocentricity, a model developed by Ptolemy, was the belief that the Earth is the center of the universe." +
-    		"Geogentric thinking also believed that Earth was fixed in space, not moving, and was special and unique compared to " +
-    		"all other celestial bodies. ";
-}
-
-function printPtolemaicSolarSystem()
-{    
-    document.getElementById( "as" ).src = "images/ptolmeic.png";
-    document.getElementById( "title" ).innerHTML = "Ptolemaic Solar System";
-    document.getElementById( "box" ).innerHTML ="Ptolemaic Solar System";
-}
-
-function printEpicycles()
-{    
-    document.getElementById( "as" ).src = "images/epicycles.jpg";
-    document.getElementById( "title" ).innerHTML = "Epicycles";
-    document.getElementById( "box" ).innerHTML ="Epicycles";
-}
-
-function printHeliocentricity()
-{    
-    document.getElementById( "as" ).src = "images/heliocentric.jpg";
-    document.getElementById( "title" ).innerHTML = "Heliocentricity";
-    document.getElementById( "box" ).innerHTML ="Heliocentricity";
-}
-
-function printCopernicanSolarSystem()
-{    
-    document.getElementById( "as" ).src = "images/copernican.png";
-    document.getElementById( "title" ).innerHTML = "Copernican Solar System";
-    document.getElementById( "box" ).innerHTML ="Copernican Solar System";
+    document.getElementById( "box" ).innerHTML =". Geocentricity, a model developed by Ptolemy, was the belief that the Earth is the center of the universe.<br/><br/>" +
+    		". Geocentric thinking also held Earth was fixed in space, not moving, and was special and unique compared to " +
+    		"all other celestial bodies.";
 }
 
 function printRetrogradeMotion()
 {    
     document.getElementById( "as" ).src = "images/retrograde.jpg";
     document.getElementById( "title" ).innerHTML = "Retrograde Motion";
-    document.getElementById( "box" ).innerHTML = "Retrograde Motion is movement in the direction opposite to the movement of something else" +
-    		"A true example of retrograde motion would be the Earth rotating one direction around the sun and a satellite rotating" +
-    		"around the Earth in the opposite direction." +
-    		"The retrograde motion seen in the movements of planets is purely an INLLUSION and depends solely on the vantage point." +
-    		"The seemingly backward movement is only due to the different speeds at which planets orbit the Sun." +
-    		"When planets pass each other in orbit, it can sometimes look as though one is moving backward." +
-    		""
-}
-
-function printQuadrant()
-{    
-    document.getElementById( "as" ).src = "images/quadrant.png";
-    document.getElementById( "title" ).innerHTML = "Quadrant";
-    document.getElementById( "box" ).innerHTML ="Quadrant";
-}
-
-function printTycho()
-{    
-    document.getElementById( "as" ).src = "images/tycho.png";
-    document.getElementById( "title" ).innerHTML = "Tycho Brahe";
-    document.getElementById( "box" ).innerHTML ="Sun orbits earth, and all other planets orbit the sun";
+    document.getElementById( "box" ).innerHTML = ".  Retrograde Motion is movement in the opposite direction to the movement of another object.<br/><br/>" +
+    		".  An example of retrograde motion is the Earth rotating one direction around the sun and a satellite rotating" +
+    		" around the Earth in the opposite direction.<br/><br/>" +
+    		".  The retrograde motion seen in the movements of planets is purely an INLLUSION and depends solely on the vantage point." +
+    		"The seemingly backward movement is only due to the different speeds at which planets orbit the Sun.<br/><br/>" +
+    		".  When planets pass each other in orbit, it may appear as though one of the objects is moving backwards."
 }
 
 function printStellarParallax()
