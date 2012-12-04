@@ -125,25 +125,11 @@ body
 
 #aside-audio-transcript
 {
-	width: 50px;
-  	float: right;
+	width: 200px;
+  	float: left;
   	margin: 0;
   	padding: 0;
   	margin-left: 10px;
-}
-
-#transcript
-{
-	color: green;
-	font-size: 12px;
-	overflow: auto;
-	height: 321px;
-	width: 233px;
-}
-
-audio
-{
-	width: 230px;
 }
 
 #topic-head
@@ -175,6 +161,7 @@ audio
 
 #side-nav
 {	
+	height: 300px;
 	width: 200px;
   	float: left;
   	display: inline;
