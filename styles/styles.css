@@ -16,12 +16,6 @@ body
 	background-size: cover;
 }
 
-section
-{
-	display: left;
-	padding: 10px;
-}
-
 #aside-info
 {
 	float: left;
