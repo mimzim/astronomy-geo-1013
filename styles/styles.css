@@ -176,14 +176,6 @@ body
 	width: 100px;
 	text-align: left;
 }
-.column1
-{
-	display: table-cell;
-	padding: 50px;
-	width: 200px;
-	margin-up:80px;
-    
-}
 
 #continue
 {
@@ -264,3 +256,10 @@ h3
 	margin: 0px;
 }
 
+#ul-nav
+{
+list-style-type:none;
+margin:0;
+padding:0;
+} 
+	
