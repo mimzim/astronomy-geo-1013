@@ -173,8 +173,10 @@ body
 .columns
 {
 	display: table-cell;
-	width: 100px;
+	height: 100px;
+	width: 200px;
 	text-align: left;
+	overflow: scroll;
 }
 
 #continue
