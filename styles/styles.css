@@ -183,6 +183,7 @@ body
 	width: 200px;
 	text-align: left;
 	overflow: scroll;
+	padding: 0px;
 }
 
 #continue
