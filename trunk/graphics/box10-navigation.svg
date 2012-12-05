@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
- viewBox="0 0 300 200">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
 
-  <rect width="100" height="10" fill="#666666" style="fill:rgb();stroke-width:1.5;stroke:rgb(0,0,0)" x="1" />
-<text fill="#c3b7a6" font-size="7.5" font-family="Arial" x="8" y="7.5"> Assessment</text>
+<rect width= "175" height="20" fill="#666666" style="fill:rgb();stroke-width:1.5;stroke:rgb(0,0,0)" x="1" />
+<text fill="#c3b7a6" font-size="14" font-family="sans-serif" x="8" y="15">Self Check 2</text>
 </svg>
