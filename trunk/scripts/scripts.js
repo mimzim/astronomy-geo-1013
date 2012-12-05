@@ -48,6 +48,10 @@ function hideTest()
 	document.getElementById("test-link").style.display = "none";	
 }
 
+function hideCertificate()
+{
+	document.getElementById("certificate").style.display = "none";
+}
 
 function visitHome()
 {
