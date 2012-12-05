@@ -255,7 +255,6 @@ h3
 {
 	border: dashed thin #000000;
 	background: #ccccee;
-
 	text-align: center;
 	height: 55px;
 	width: 245px;
@@ -276,10 +275,3 @@ h3
 	margin: 0px;
 }
 
-#ul-nav
-{
-list-style-type:none;
-margin:0;
-padding:0;
-} 
-	
