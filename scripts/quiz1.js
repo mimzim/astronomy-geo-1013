@@ -16,29 +16,28 @@ function submitQuiz1()
 	var q7 = document.forms.quiz1.question7;
 	var q8 = document.forms.quiz1.question8;
 	var q9 = document.forms.quiz1.question9;
-	var q10 = document.forms.quiz1.question10;
-	var q11 = document.forms.quiz1.question11;
-	var q12 = document.forms.quiz1.question12;
-	var q13 = document.forms.quiz1.question13;
-	var q14 = document.forms.quiz1.question14;
-	var q15 = document.forms.quiz1.question15;
-	var q16 = document.forms.quiz1.question16;
-	var q17 = document.forms.quiz1.question17;
-	var q18 = document.forms.quiz1.question18;
-	var q19 = document.forms.quiz1.question19;
-	var q20 = document.forms.quiz1.question20;
+	var q10= document.forms.quiz1.question10;
+	var q11= document.forms.quiz1.question11;
+	var q12= document.forms.quiz1.question12;
+	var q13= document.forms.quiz1.question13;
+	var q14= document.forms.quiz1.question14;
+	var q15= document.forms.quiz1.question15;
+	var q16= document.forms.quiz1.question16;
+	var q17= document.forms.quiz1.question17;
+	var q18= document.forms.quiz1.question18;
+	var q19= document.forms.quiz1.question19;
+	var q20= document.forms.quiz1.question20;
 	
-	
-	if( q1[0].checked == true)
-	{
-			numberCorrect = numberCorrect + 1;
-	}
-	
-	if( q2[0].checked == true)
+	if(q1[0].checked == true)
 		{
 			numberCorrect = numberCorrect + 1;
 		}
-	
+
+	if(q2[0].checked == true)
+		{
+			numberCorrect = numberCorrect + 1;			
+		}
+
 	if(q3[3].checked == true)
 		{
 			numberCorrect = numberCorrect + 1;
@@ -53,83 +52,95 @@ function submitQuiz1()
 		{
 			numberCorrect = numberCorrect + 1;
 		}
+	
 	if(q6[3].checked == true)
 		{
 			numberCorrect = numberCorrect + 1;
 		}
+	
 	if(q7[4].checked == true)
 		{
 			numberCorrect = numberCorrect + 1;
 		}
+	
 	if(q8[1].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+	
 	if(q9[0].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+	
 	if(q10[3].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+	
 	if(q11[1].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q12[3].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q13[1].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
-	if(q14[3].checked == true)
-		{
+
+	if(q14[3].checked == true)		
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q15[2].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q16[0].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q17[4].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q18[0].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q19[1].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
+
 	if(q20[0].checked == true)
-		{
+		{		
 			numberCorrect = numberCorrect + 1;
 		}
-	
+
 	var percent = numberCorrect / 20;
-	var score = number Correct / 20 * 100;
-	
-	
-	alert("Your score is " + score + "%");
+	var score = percent * 100;
 	
 	if(score >= 70)
 		{
-			alert("You passed!")
+			alert("Your score is " + score + " %");	
 			document.getElementById("certificate").style.display = "inline";
 		}
 	
-if(score < 70)
-	{
-		alert("Try again.")
-	}
+	else
+		{
+			alert("Your score is " + score + "%.\n You must score at least 70% to print the certificate.");				
+		}
 	
 	// call the function to report scores
 	parent.reportScores( score );
