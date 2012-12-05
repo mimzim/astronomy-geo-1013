@@ -90,6 +90,7 @@ body
 }
 #box
 {
+	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
