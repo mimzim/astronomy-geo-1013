@@ -164,7 +164,7 @@ function initializeSCORM()
 		sessionStorage.setItem( "course_started", "2" );
     		
 		// retrieve the LMS values here and integrate them into your course
-		var userName = oScorm.get("cmi.lerner_name");
+		var userName = oScorm.get("cmi.learner_name");
 		sessionStorage.setItem("userName", userName);
 		window.frames [0].document.getElementById("user-name").innerHTML = userName;
 	}
@@ -175,6 +175,12 @@ function initializeSCORM()
 		}
 }
 
+function setName()
+{
+	var userName = sessionStorage.getItem("userName");
+	document.getElementById("user-name").innerHTML = userName;
+	alert( userName );
+}
 // This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
 function reportScores( percent )

@@ -1,13 +1,4 @@
 
-
-
-var TychoBrahe 
-var NicolausCopernicus
-var GalileoGalileg
-var JohannesKeplek
-var ClaudiusPtolemyp
-var SirIssacNewton
-
 function printTychoBrahe()
 {    
     document.getElementById( "as" ).src = "images/brahe.jpg";

@@ -143,5 +143,5 @@ function submitQuiz1()
 		}
 	
 	// call the function to report scores
-	parent.reportScores( score );
+	parent.reportScores( percent );
 }
