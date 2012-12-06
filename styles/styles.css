@@ -273,6 +273,16 @@ h3
   -webkit-user-select: none;
 }
 
+a
+{
+	color: #6699cc;
+}
+
+a:hover
+{
+	color: #ff9900;
+}
+
 #response
 {
 	margin: 0px;
