@@ -212,10 +212,11 @@ body
 	width: 200px;
 }
 
-h3
+.draghead
 {
 	padding-top: 0px;
 	text-align: center;
+	font-weight: bold;
 	top-margin: 0px;
 }
 
@@ -274,4 +275,5 @@ a:hover
 {
 	margin: 0px;
 }
+
 
