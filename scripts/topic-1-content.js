@@ -7,13 +7,13 @@ function printTychoBrahe()
     t.setAttribute("alt", "Tycho Brahe");
     t.setAttribute("src", "images/brahe.jpg");
 	document.getElementById( "title" ).innerHTML = "Tycho Brahe<br/>(1546-1601 Danish, Protestant North)";
-	document.getElementById( "box" ).innerHTML ="Given an island by the King of Denmark to build an observatory with sophisticated equipment for measuring the distance between stars.<br/><br/>" +
-    		". Left Behind 20 years of observations. <br/><br/>" +
+	document.getElementById( "box" ).innerHTML ="Given an island by the King of Denmark to build an observatory with sophisticated equipment (for his era) for measuring the distance between stars.<br/><br/>" +
+    		". Died, leaving behind 20 years of observations. <br/><br/>" +
     		". Data on Mar's orbit that was crucial for Kelper to construct our present model of the solar system.<br/><br/>" +
-    		". Used parallax to show:<br/><br/> " +
+    		". Used stellar parallax to show:<br/><br/> " +
     		"Either earth is the center of the solar system<br/><br/>" +
     		"OR<br/><br/>" +
-    		"The stars or so far away that the parallax was too far to measure.<br/><br/> " +
+    		"The stars or so far away that the stellar parallax was too far to measure.<br/><br/> " +
     		".  Believed in a blend between Ptolemic and Copernicun models (planets orbiting the sun and sun orbits the Earth.";
 }
 
@@ -26,10 +26,10 @@ function printNicolausCopernicus()
     t.setAttribute("alt", "Nicolaus Copernicus");
     t.setAttribute("src", "images/copernicus.jpg");
     document.getElementById( "title" ).innerHTML = "Nicolaus Copernicus<br/>(1473-1543 Polish Priest)";
-    document.getElementById( "box" ).innerHTML =". Calculations used to revise Julian calendar to Gregorian calendar.<br/><br/>" +
-    		". Copernicus had a conceptual breakthrough: the Sun centered solar system.<br/><br/>" +
-    		". Still thought circular orbits were correct (perfection in design).<br/><br/>" +
-    		". Wrote De Revolusionibus in 1543, received well by the church, but in 1616 the book was banned until 1865, due to the Protestant reformation.";
+    document.getElementById( "box" ).innerHTML =". Revised Roman Julian calendar to modern Gregorian calendar.<br/><br/>" +
+    		". Theorized the heliocentric (Sun-centered) solar system.<br/><br/>" +
+    		". Supported circular orbits (perfection in design).<br/><br/>" +
+    		". Wrote De Revolusionibus in 1543, received well by the Catholic church, but due to the Protestant Reformation, in 1616, the book was banned until 1865.";
 }
 
 
@@ -42,14 +42,14 @@ function printGalileoGalilei()
     t.setAttribute("alt", "Galileo Galilei");
     t.setAttribute("src", "images/galileo.jpg");
     document.getElementById( "title" ).innerHTML = "Galileo Galilei<br/>(1564-1642; Italian, anti-reformation Italy)";
-	document.getElementById( "box" ).innerHTML =". Built a telescope after hearing of one built in the Netherlands. <br/><br/>" +
+	document.getElementById( "box" ).innerHTML =". Built a telescope after learning of one built in the Netherlands. <br/><br/>" +
 	   		". Demonstrated some celestial objects did not revolve around the Earth.<br/><br/>" +
-	   		". Discovered moons of Jupiter called the Galilean Moons: Io, Europa, Ganymede, Callisto.<br/><br/>" +
-	   		". Showed phases of Venus as perspective changes over time, more support for a heliocentric solar system.<br/><br/>" +
+	   		". Discovered moons of Jupiter called the Galilean Moons: Io, Europa, Ganymede, Callisto, which supports heliocentricity, since they revolve around Jupiter, not Earth.<br/><br/>" +
+	   		". Showed that phases of Venus change in perspective over time, more support for a heliocentric solar system.<br/><br/>" +
 	   		". Galileo's technological breakthroughs gave evidence for the heliocentric model.<br/><br/>" +
-	   		". Mountains on the moon: Not a perfect celestial sphere and the moon is similar to Earth.<br/><br/>" +
-	   		". Makes idea that the moon revolves around us and everything else revolves around the sun probable.<br/><br/>" +
-	   		". Sunspots: not a heavenly, incorruptible body.";
+	   		". Discovered mountains on the moon: reasoned that the moon nor the Earth is a perfect sphere.<br/><br/>" +
+	   		". Reinforced idea that the moon revolves around the Earth and the Earth revoloves around the Sun (heliocentricity).<br/><br/>" +
+	   		". Discovered sunspots: the Sun is not a heavenly, incorruptible body.";
 }
 
        
@@ -61,9 +61,9 @@ function printJohannesKepler()
     t.setAttribute("alt", "Johanes Kepler");
     t.setAttribute("src", "images/kepler.png");
 	document.getElementById( "title" ).innerHTML = "Johannes Kepler<br/>(1571-1630 German, Protestant north)";
-	document.getElementById( "box" ).innerHTML =". Thought about the solar system in 3 dimensions and that the spacing between the sphere on which " +
+	document.getElementById( "box" ).innerHTML =". Thought about the solar system being 3 dimensionial and that the spacing between the spheral plane on which " +
 	 		"the planets moved were determined by perfect geometric shapes.<br/><br/>" +
-	 		". Kepler's laws of planetary motion.<br/><br/>"+
+	 		". Kepler theorized three Laws of Planetary Motion known as Kepler's Laws.<br/><br/>"+
 	 		". Kepler quote: 'My aim is to show that the heavenly machine is not a kind of divine, live being, but a kind of clockwork, insofar as" +
 	 		" nearly all the manifold motions are caused by a most simple, magnetic, and material force," +
 	 		" just as all motions of the clock are caused by a simple weight. And I also show how these " +
@@ -79,9 +79,9 @@ function printClaudiusPtolemy()
     t.setAttribute("src", "images/ptolemaeus.jpg");
 	document.getElementById( "title" ).innerHTML = "Claudius Ptolemy<br/>(165 AD, Greek)";
 	document.getElementById( "box" ).innerHTML =". The Ptolmec solar system (accepted for 1500 years).<br/><br/>" +
-    		". Earth centered- Celectial objects move at constant speed and move in circular orbits.<br/><br/>" +
-    		". Planets have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to change directions.<br/><br/>" +
-    		". Developed Quadrants to be used for astronomical measurements, notably determining the altitude of celestial objects.";
+    		". Earth centered- celectial objects move at constant speed and move in circular orbits.<br/><br/>" +
+    		". Planets have epicycles that account for observed periodic irregularities in planetary motions like planets apearing to move backwards.<br/><br/>" +
+    		". Theorized the idea of graphical quadrants and utilized them for astronomical measurements, such as determining the altitude of celestial objects.";
 } 
 
 function printSirIssacNewton()
@@ -94,7 +94,7 @@ function printSirIssacNewton()
 	document.getElementById( "title" ).innerHTML = "Sir Issac Newton<br/>(1642-1717, England)";
 	document.getElementById( "box" ).innerHTML =". Collaborated with Edmond Halley for whom Halley's comet was named.<br/><br/>" +
     	". They revisited Kepler's Law of elliptical orbit.<br/><br/>"+
-    	". Newton's Law of gravity explained elliptical orbits and speed of orbits.<br/>";
+    	". Used his Law of Gravity to explain elliptical orbits and speed of orbits.<br/>";
 }
 
 function printAristotle()
@@ -133,9 +133,9 @@ function printRetrogradeMotion()
     t.setAttribute("src", "images/retrograde.jpg");
     document.getElementById( "title" ).innerHTML = "Retrograde Motion";
     document.getElementById( "box" ).innerHTML = ".  Retrograde Motion is movement in the opposite direction to the movement of another object.<br/><br/>" +
-    		".  An example of retrograde motion is the Earth rotating one direction around the sun and a satellite rotating" +
-    		" around the Earth in the opposite direction.<br/><br/>" +
-    		".  The retrograde motion seen in the movements of planets is purely an INLLUSION and depends solely on the vantage point." +
+    		".  An example of retrograde motion is the Earth rotating one direction around the Sun (counter-clockwise) and a satellite rotating" +
+    		" around the Earth in the opposite direction (clockwise).<br/><br/>" +
+    		".  The retrograde motion seen in the movements of planets is purely an ILLUSION and depends solely on the vantage point." +
     		"The seemingly backward movement is only due to the different speeds at which planets orbit the Sun.<br/><br/>" +
     		".  When planets pass each other in orbit, it may appear as though one of the objects is moving backwards."
 }
