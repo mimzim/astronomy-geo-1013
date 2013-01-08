@@ -2,8 +2,8 @@ body
 {
 	margin: 10px;
 	padding: 0px;
-	width: 1024;
-	height: 350;
+	width: 1024px;
+	height: 768px;
 	overflow: auto;
 	font-size: 16px;
 	font-family: sans-serif;
@@ -93,7 +93,6 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	overflow: auto;
 }
 
 .sub1-menu-link
@@ -178,7 +177,6 @@ body
 .columns
 {
 	display: table-cell;
-	height: 100px;
 	width: 200px;
 	text-align: left;
 	padding: 0px;
@@ -190,10 +188,6 @@ body
 	font-size: 20px;
 }
 
-#scroll
-{
-	height: 400px;
-	overflow:auto;
 }
 #response
 {
