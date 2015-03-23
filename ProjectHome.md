@@ -1,0 +1,1 @@
+Astronomy module to support UTSA GEO 1013 astronomy section course lecture series.  Module will include graphics, multimedia resources, interactivity and knowledge assessment.
